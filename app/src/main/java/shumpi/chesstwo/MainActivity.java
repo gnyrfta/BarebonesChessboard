@@ -1,0 +1,1015 @@
+package shumpi.chesstwo;
+/*movePiece is called twice in both ChessBoard and RetardedChess.*/
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ClipData;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.media.AudioManager;
+import android.media.SoundPool;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.DragShadowBuilder;
+import android.view.View.OnTouchListener;
+import android.widget.TextView;
+//so far this below does not seem necessary?
+
+
+public class MainActivity extends Activity implements OnTouchListener {
+	public static int width;
+	public static int height;
+	public static HashMap<String,String> hm = new HashMap<String,String>();
+	boolean starting=true;
+	public String fromSquare="";//Square to move a piece from.
+	public String toSquare="";	//Square to move a piece to.
+	public String square; 		//Current touched square.
+	public String thisIsThePieceToBeMoved;//Exactly what it sounds like.
+	public String thisIsOnSquare="";
+	public String pieceMovement;
+	String movingPiece="";
+	public float squareWidthF;
+
+	boolean soundOn = true;
+	TextView tv;
+	SoundPool sp;
+	int soundId;
+	public static ChessBoard chessboard;//class that paints the chess board.
+	//ArrayLists that left arrow reads from:
+	static ArrayList<String> fromList = new ArrayList<String>();
+	static ArrayList<String> toList = new ArrayList<String>();
+	static ArrayList<String> pieceMovedList = new ArrayList<String>();
+	static ArrayList<String> pieceCapturedList = new ArrayList<String>();
+	//ArrayLists that right arrow reads from: 
+	static ArrayList<String> fromListForward = new ArrayList<String>();
+	static ArrayList<String> toListForward = new ArrayList<String>();
+	static ArrayList<String> pieceMovedListForward = new ArrayList<String>();
+	static ArrayList<String> pieceCapturedListForward = new ArrayList<String>();
+	//MovePiece is called double - this is to filter away the second call:
+	static String lastFrom="";
+	static String lastTo="";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) 
+	{
+		super.onCreate(savedInstanceState);
+		Log.d("in onCreate","entering");
+		DisplayMetrics metrics = new DisplayMetrics();//Get the dimensions of the screen.
+		getWindowManager().getDefaultDisplay().getMetrics(metrics);       
+		width=metrics.widthPixels;
+		height=metrics.heightPixels;
+		sp = new SoundPool(5,AudioManager.STREAM_MUSIC,0);
+		soundId = sp.load(this.getApplicationContext(), R.raw.movement, 1);
+		if(starting)//run this when the game is first launched. Maybe onCreate is only run when game is first launched? 
+		{
+			gameStart();//fills the hash map with strings "white king" "black pawn" et.c with keys "e1" "f7" etc.
+			starting=false;
+		}
+		chessboard = new ChessBoard(this);
+		setContentView(chessboard);
+		chessboard.setOnTouchListener(this);
+		//chessboard.setOnDragListener(new MyDragListener());
+		Log.d("on Create","exiting");
+		PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+		SharedPreferences.OnSharedPreferenceChangeListener listener =
+				new SharedPreferences.OnSharedPreferenceChangeListener() {
+			public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
+				// listener implementation
+			}
+		};
+		// mp.start();
+	}
+
+	protected void onResume() {
+		super.onResume();
+		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+		//String background = sharedPref.getString(SettingsActivity.KEY_BACKGROUND_COLOR, "");
+		//Log.d("in MainActivity.onResume(), this is background:",""+background+"");
+		String chosenSet = sharedPref.getString(SettingsActivity.KEY_CHESS_SET,"");
+		Log.d("in MainActivity.onResume(), this is chess set:",""+chosenSet+"");
+		boolean sound = sharedPref.getBoolean(SettingsActivity.KEY_SOUND_ON, true);
+		String orientation = sharedPref.getString(SettingsActivity.KEY_ORIENTATION, "");
+		pieceMovement = sharedPref.getString(SettingsActivity.KEY_MOVEMENT, "");
+		setSound(sound);
+		//setBackground(background);
+		setChessSet(chosenSet);
+		setOrientation(orientation);
+		Log.d("Orientation: ",""+orientation+"");
+		chessboard.invalidate();
+		//mp.start();
+		Log.d("in onResume","sound: "+sound+"");
+		//Here should release resources and load new images. 
+		/*getPreferenceScreen().getSharedPreferences()
+	            .registerOnSharedPreferenceChangeListener(this);*/
+	}
+
+
+	protected void onPause() {
+		super.onPause();
+		/* getPreferenceScreen().getSharedPreferences()
+	            .unregisterOnSharedPreferenceChangeListener(this);*/
+	}
+	/*void setBackground(String colorChosen)
+	{
+		if(colorChosen.equals("grey"))
+		{
+			chessboard.backgroundColor=Color.GRAY;
+		}
+		else if(colorChosen.equals("blue"))
+		{
+			chessboard.backgroundColor=Color.BLUE;
+		}
+		else if(colorChosen.equals("green"))
+		{
+			chessboard.backgroundColor=Color.GREEN;
+		}
+	}*/
+	void setChessSet(String chosenSet)
+	{
+		if(chosenSet.equals("wood"))
+		{
+			chessboard.chessSet="wood";
+		}
+		else if(chosenSet.equals("eyes"))
+		{
+			chessboard.chessSet="eyes";
+		}
+		else if(chosenSet.equals("staunton"))
+		{
+			chessboard.chessSet="staunton";
+		}
+		else if(chosenSet.equals("freak"))
+		{
+			chessboard.chessSet="freak";
+		}
+	}
+	void setSound(boolean sound)
+	{
+		if(sound)
+		{
+			soundOn = true;
+		}
+		else if(!sound)
+		{
+			soundOn = false;
+		}
+	}
+	void setOrientation(String orientation)   
+	{
+		chessboard.orientation=orientation;
+	}
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		switch(item.getItemId())
+		{
+		case R.id.action_preferences:
+			invokeSettings();
+			return true;
+		}
+		return true;
+	}
+	private void invokeSettings() {
+		Intent settingsIntent = new Intent(this, SettingsActivity.class);
+		startActivity(settingsIntent);
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);//Mumbo Jumbo
+		Log.d("in OnCreateOptionsMenu","");
+		return true;
+	}
+	public String querySquare(String coordinates) //What piece is on the square?
+	{
+		Log.d("inquerySquare","entering");
+		String thisIsAnswer = hm.get(coordinates);
+		Log.d("in querySquare","this is answer_ "+thisIsAnswer);
+		Log.d("inquerySquare","exiting");
+		if (thisIsAnswer==null)
+		{
+			thisIsAnswer="empty";
+		}
+		return thisIsAnswer;
+	}
+	public static void gameStart()//Fills the hash map according to the form <key> <value> = "a1","white rook"
+	{
+		Log.d("in gameStart","entering");	
+		hm.put("a2","white pawn");
+		hm.put("b2","white pawn");
+		hm.put("c2","white pawn");
+		hm.put("d2","white pawn");
+		hm.put("e2","white pawn");
+		hm.put("f2","white pawn");
+		hm.put("g2","white pawn");
+		hm.put("h2","white pawn");
+		hm.put("a1","white rook");
+		hm.put("b1","white knight");
+		hm.put("c1","white bishop");
+		hm.put("d1","white queen");
+		hm.put("e1","white king");
+		hm.put("f1","white bishop");
+		hm.put("g1","white knight");
+		hm.put("h1","white rook");
+		//
+		hm.put("a7", "black pawn");
+		hm.put("b7", "black pawn");
+		hm.put("c7", "black pawn");
+		hm.put("d7", "black pawn");
+		hm.put("e7", "black pawn");
+		hm.put("f7", "black pawn");
+		hm.put("g7", "black pawn");
+		hm.put("h7", "black pawn");
+		hm.put("a8", "black rook");
+		hm.put("b8","black knight");
+		hm.put("c8","black bishop");
+		hm.put("d8","black queen");
+		hm.put("e8","black king");
+		hm.put("f8", "black bishop");
+		hm.put("g8", "black knight");
+		hm.put("h8","black rook");
+		//
+		hm.put("a3","empty");
+		hm.put("b3","empty");
+		hm.put("c3","empty");
+		hm.put("d3","empty");
+		hm.put("e3","empty");
+		hm.put("f3","empty");
+		hm.put("g3","empty");
+		hm.put("h3","empty");
+		//
+		hm.put("a4","empty");
+		hm.put("b4","empty");
+		hm.put("c4","empty");
+		hm.put("d4","empty");
+		hm.put("e4","empty");
+		hm.put("f4","empty");
+		hm.put("g4","empty");
+		hm.put("h4","empty");
+		//
+		hm.put("a5","empty");
+		hm.put("b5","empty");
+		hm.put("c5","empty");
+		hm.put("d5","empty");
+		hm.put("e5","empty");
+		hm.put("f5","empty");
+		hm.put("g5","empty");
+		hm.put("h5","empty");
+		//
+		hm.put("a6","empty");
+		hm.put("b6","empty");
+		hm.put("c6","empty");
+		hm.put("d6","empty");
+		hm.put("e6","empty");
+		hm.put("f6","empty");
+		hm.put("g6","empty");
+		hm.put("h6","empty");
+		Log.d("testing","testing");
+		//placing the extra pieces
+		hm.put("i1","white king");
+		hm.put("i2","white queen");
+		hm.put("i3","white bishop");
+		hm.put("j1","white knight");
+		hm.put("j2","white rook");
+		hm.put("j3","white pawn");
+		//placing the extra black pieces:
+		hm.put("i6","black king");
+		hm.put("i7","black queen");
+		hm.put("i8","black bishop");
+		hm.put("j6","black knight");
+		hm.put("j7","black rook");
+		hm.put("j8","black pawn");
+		//empty squares rows 9 and 10:
+		hm.put("i4","empty");
+		hm.put("i5","empty");
+		hm.put("j4","empty");
+		hm.put("j5","empty");
+
+		Log.d("ingameStart","exiting");
+	}
+	public void movePiece(String from,String to, boolean movingBack, boolean movingInForwardList )//Make changes to the hash map, vacating one square and occupying a
+	{
+		if(lastFrom.equals(from)&&lastTo.equals(to))
+		{
+			//This is a duplicate run, do nothing.Added because somewhere movePiece was being called twice per move.
+		}
+
+		else
+		{
+			Log.d("In movePiece()",""+"this is from square "+from+", this is to square "+to);
+			String column = from.substring(0,1);
+			String column2 = to.substring(0,1);
+			String capturedPiece = querySquare(to);
+			Log.d("in movePiece","this is column: "+column);
+			//if moving from an area inside the board, vacate from-square, otherwise not:
+			if(!((column.equals("i"))||(column.equals("j"))))
+			{	
+				hm.put(from,"empty");//piece leaving square
+				hm.put(to,thisIsThePieceToBeMoved);//piece arriving at square.
+			}
+			else
+			{	
+				hm.put(to,thisIsThePieceToBeMoved);	
+				Log.d("in movePiece","this is outside the board");	
+			}
+			if(!movingBack)
+			{
+				Log.d("in movePiece","in ! movingBack-block");
+				/*
+				{*/
+				//Would actually only have to do this the first time a movement that is not backwards is called, 
+				//but it is easier programming-wise to just do it every time. 
+				if(!(((column.equals("i"))||(column.equals("j")))&&((column2.equals("i"))||(column2.equals("j")))))
+				{
+					Log.d("in movePiece, after complicated logic","column: "+column+" column2: "+column2+" ");
+					if(!movingInForwardList)
+					{
+						fromListForward.clear();
+						toListForward.clear();
+						pieceMovedListForward.clear();
+						pieceCapturedListForward.clear();
+					}
+				}
+				Log.d("in movePiece","adding to lists");
+				fromList.add(from);
+				toList.add(to);
+				pieceMovedList.add(thisIsThePieceToBeMoved);
+				pieceCapturedList.add(capturedPiece);
+			}
+			else if(movingBack)
+			{
+				Log.d("in movePiece","in movingBack-block");
+				fromListForward.add(from);
+				toListForward.add(to);
+				pieceMovedListForward.add(thisIsThePieceToBeMoved);
+				pieceCapturedListForward.add(capturedPiece);
+			}
+			if(soundOn)
+			{ 
+				sp.play(soundId, 1, 1, 0, 0, 1);			
+				//playSoundClip();
+			}
+			lastFrom=from;
+			lastTo=to;
+		}
+	}
+	void playSoundClip()
+	{
+		/*if(movementSound!=null) 
+		{   movementSound.reset();
+			movementSound.release(); } 
+		movementSound = MediaPlayer.create(this, R.raw.movement);
+		movementSound.start();*/
+
+	}
+	@Override
+	public boolean onTouch(View v, MotionEvent event) //is called on Touch.
+	{
+		//Figure out which square touch is on and assign it to fromSquare:
+		if(width<height)
+		{
+			squareWidthF=width/8;
+		}
+		else
+		{
+			squareWidthF=height/8;
+		}
+		if(event.getY()<squareWidthF*10)
+		{
+			if(pieceMovement.equals("Drag and Drop"))
+			{
+				float xCo=0;
+				float yCo=0;
+				switch(event.getAction() & MotionEvent.ACTION_MASK)
+				{	
+				case MotionEvent.ACTION_DOWN: 
+
+					//Assigning the coordinates using the 'internal' coord. 
+					//system where A1 is at 0,0.
+					if(chessboard.orientation.equals("white_left"))
+					{	
+						if(event.getY()<width)
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_up"))
+					{
+						if(event.getY()<width)
+						{
+							yCo = width-event.getX();
+							xCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_down"))
+					{
+						if(event.getY()<width)
+						{
+							yCo=event.getX();
+							xCo = width - event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_right"))
+					{
+						if(event.getY()<width)
+						{
+							xCo=width-event.getX();
+							yCo=width-event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					Log.d("in MainActivity.onTouch()","yCo: "+yCo+" xCo: "+xCo+" ");
+					float squareWidthF;
+					String row="";
+					int i;
+					int j;
+					if(width<height)
+					{
+						squareWidthF=width/8;
+					}
+					else
+					{
+						squareWidthF=height/8;
+					}
+					i=0;
+					j=0;
+					for (i=1;i<9;i++)
+					{	
+						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						{
+							int k=i; 
+							Log.d("in OnTouch","this is column "+i);
+							for (j=1;j<11;j++)
+							{	
+								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
+								{	
+									switch(j)
+									{
+									case 1: row="a";
+									break;
+									case 2: row="b";
+									break;
+									case 3: row="c";
+									break;
+									case 4: row="d";
+									break;
+									case 5: row="e";
+									break;
+									case 6: row="f";
+									break;
+									case 7: row="g";
+									break;
+									case 8: row="h";
+									break;
+									case 9: row="i";
+									break;
+									case 10: row="j";
+									break;   			
+									}
+									Log.d("in OnTouch","this is "+row+k);
+									square = row+k;
+									Log.d("obladi","this is square");
+								}
+							}
+						}
+					}
+					fromSquare=square;
+					Log.d("in onTouch","B touch registered");
+					thisIsOnSquare = querySquare(square);
+					if(!thisIsOnSquare.equals("empty"))
+					{
+						if(thisIsOnSquare.equals("black rook"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("black rook",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("black knight"))
+						{
+							//chessboard.blackKnight.setVisible(false, false);
+							chessboard.setMovingPiece("black knight",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("black bishop"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("black bishop",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("black queen"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("black queen",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("black king"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("black king",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("black pawn"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("black pawn",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white rook"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white rook",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white knight"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white knight",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white bishop"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white bishop",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white queen"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white queen",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white king"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white king",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						if(thisIsOnSquare.equals("white pawn"))
+						{
+							//chessboard.blackRook.setVisible(false, false);
+							chessboard.setMovingPiece("white pawn",(int)event.getX(),(int)event.getY());
+							chessboard.setMovingFromSquare(square);
+						}
+						chessboard.invalidate();
+					}
+					//hm.put(square, "empty");
+					break;
+
+				case MotionEvent.ACTION_UP: 
+					chessboard.up=true;
+					chessboard.setDragging(false);
+					chessboard.dragging=false;
+					thisIsThePieceToBeMoved=chessboard.getMovingPiece();
+					//chessboard.setMovingPiece("", 0, 0);
+					chessboard.setMovingFromSquare("");
+					Log.d("onTouch","ACTION_UP has been called");
+					//
+					//Assigning the coordinates using the 'internal' coord. 
+					//system where A1 is at 0,0.
+					if(chessboard.orientation.equals("white_left"))
+					{	
+						if(event.getY()<width)
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_up"))
+					{
+						if(event.getY()<width)
+						{
+							yCo = width-event.getX();
+							xCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_down"))
+					{
+						if(event.getY()<width)
+						{
+							yCo=event.getX();
+							xCo = width - event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_right"))
+					{
+						if(event.getY()<width)
+						{
+							xCo=width-event.getX();
+							yCo=width-event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					Log.d("in MainActivity.onTouch()","yCo: "+yCo+" xCo: "+xCo+" ");
+					row="";
+					if(width<height)
+					{
+						squareWidthF=width/8;
+					}
+					else
+					{
+						squareWidthF=height/8;
+					}
+
+					for (i=1;i<9;i++)
+					{	
+						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						{
+							int k=i; 
+							Log.d("in OnTouch","this is column "+i);
+							for (j=1;j<11;j++)
+							{	
+								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
+								{	
+									switch(j)
+									{
+									case 1: row="a";
+									break;
+									case 2: row="b";
+									break;
+									case 3: row="c";
+									break;
+									case 4: row="d";
+									break;
+									case 5: row="e";
+									break;
+									case 6: row="f";
+									break;
+									case 7: row="g";
+									break;
+									case 8: row="h";
+									break;
+									case 9: row="i";
+									break;
+									case 10: row="j";
+									break;   			
+									}
+									Log.d("in OnTouch","this is "+row+k);
+									square = row+k;
+								}
+							}
+						}
+					}
+					toSquare=square;
+					Log.d("obladi","fromSquare: "+fromSquare+"");
+					Log.d("obladi","toSquare: "+toSquare+"");
+					/*
+					if (!fromSquare.equals(toSquare))
+					{
+						movePiece(fromSquare,toSquare,false,false);
+						chessboard.invalidate();
+					}*/
+					/*if(fromSquare.equals(toSquare))
+					{
+						//chessboard.setMovingPiece("",0,0);
+						//chessboard.setMovingFromSquare("");
+						//thisIsThePieceToBeMoved="";
+					}*/
+
+						movePiece(fromSquare, toSquare, false, false);
+						//hm.put(toSquare,"black rook");
+						//	fromSquare="";
+						chessboard.invalidate();
+					Log.d("in onTouch","B touch registered");
+					chessboard.setMovingPiece("",0,0);
+
+					break;
+					//
+
+				case MotionEvent.ACTION_MOVE: //dO STUFF.
+					if(thisIsOnSquare.equals("black rook"))
+					{
+						chessboard.setDragging(true);
+						chessboard.setMovingPiece("black rook",(int)event.getX(),(int)event.getY());
+						chessboard.invalidate();
+						movingPiece="black rook";
+					}
+					break;
+
+				}
+			}
+
+			//
+			else if(pieceMovement.equals("Two Touch"))
+			{
+
+
+				Log.d("in onTouch","entering");
+				if (event.getAction() == MotionEvent.ACTION_DOWN)
+				{
+					float xCo=0;
+					float yCo=0;
+					//Assigning the coordinates using the 'internal' coord. 
+					//system where A1 is at 0,0.
+					if(chessboard.orientation.equals("white_left"))
+					{	
+						if(event.getY()<width)
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_up"))
+					{
+						if(event.getY()<width)
+						{
+							yCo = width-event.getX();
+							xCo = event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_down"))
+					{
+						if(event.getY()<width)
+						{
+							yCo=event.getX();
+							xCo = width - event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					else if(chessboard.orientation.equals("white_right"))
+					{
+						if(event.getY()<width)
+						{
+							xCo=width-event.getX();
+							yCo=width-event.getY();
+						}
+						else
+						{
+							xCo = event.getX();
+							yCo = event.getY();
+						}
+					}
+					Log.d("in MainActivity.onTouch()","yCo: "+yCo+" xCo: "+xCo+" ");
+					float squareWidthF;
+					String row="";
+					int i;
+					int j;
+					if(width<height)
+					{
+						squareWidthF=width/8;
+					}
+					else
+					{
+						squareWidthF=height/8;
+					}
+					Log.d("in OnTouch","A");
+					for (i=1;i<9;i++)
+					{	
+						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						{
+							int k=i; 
+							Log.d("in OnTouch","this is column "+i);
+							for (j=1;j<11;j++)
+							{	
+								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
+								{	
+									switch(j)
+									{
+									case 1: row="a";
+									break;
+									case 2: row="b";
+									break;
+									case 3: row="c";
+									break;
+									case 4: row="d";
+									break;
+									case 5: row="e";
+									break;
+									case 6: row="f";
+									break;
+									case 7: row="g";
+									break;
+									case 8: row="h";
+									break;
+									case 9: row="i";
+									break;
+									case 10: row="j";
+									break;   			
+									}
+									Log.d("in OnTouch","this is "+row+k);
+									square = row+k;
+								}
+							}
+						}
+					}
+
+					Log.d("in onTouch","B touch registered");
+					String thisIsOnSquare = querySquare(square);
+					Log.d("in onTouch","this is on this square: "+thisIsOnSquare);
+					if (thisIsOnSquare.equals("empty"))
+					{
+						Log.d("in OnTouch","C EMPTY ");
+						if(fromSquare.equals(""))
+						{
+							/*do nothing*/
+						}
+						else 
+						{ 
+							toSquare=square;
+							thisIsThePieceToBeMoved=querySquare(fromSquare);
+							if(yCo<squareWidthF*10)
+							{
+								movePiece(fromSquare,toSquare,false,false);					
+								chessboard.invalidate();
+							}
+						}
+						Log.d("in OnTouch","D");
+					} 
+
+					else
+					{
+						if(fromSquare.equals(""))
+						{	
+							fromSquare=square;
+							Log.d("in OnTouch","fromSquare: "+square);
+						}
+						else
+						{ 
+							toSquare=square;
+							/*        		fromSquare="e2";
+        		toSquare="e4";*/
+							Log.d("in onTouch","this is toSquare"+toSquare);
+							thisIsThePieceToBeMoved=querySquare(fromSquare);
+							if(yCo<squareWidthF*10)
+							{
+								movePiece(fromSquare,toSquare,false,false);					
+								chessboard.invalidate();
+							}
+						}	
+					}
+					//Does this do anything?:
+					boolean moveItConditionOne = !(fromSquare.equals(""))&&!(fromSquare.equals("empty"));
+					boolean moveItConditionTwo = !(toSquare.equals(""))&&!(fromSquare.equals("empty"));     
+					System.out.println("c1"+moveItConditionOne);
+					System.out.println("c2"+moveItConditionTwo);
+					if(moveItConditionTwo&&moveItConditionOne)
+					{
+						Log.d("in OnTouch","E");
+						if(yCo<squareWidthF*10)
+						{
+							movePiece(fromSquare,toSquare,false,false);					
+						}
+						Log.d("in OnTouch","F");
+						chessboard.invalidate();
+						Log.d("in conditionloop","invalidating");
+						Log.d("in OnTouch","G");
+						fromSquare="";
+						toSquare="";
+					}
+				}
+			}
+		}
+		//From here it does not matter if it is drag and drop or two touch.
+		//Check if any of the left or right arrows have been tapped: 
+		//MotionEvent.ACTION_DOWN
+		//MotionEvent.ACTION_UP
+		int action = event.getAction() & MotionEvent.ACTION_MASK;
+
+		switch(action)
+		{
+		case MotionEvent.ACTION_DOWN:
+			if((event.getX()>squareWidthF*1) && (event.getX()<squareWidthF*4))
+			{
+				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				{
+					if(fromList.size()>0)
+					{
+						Log.d("In MainActivity.onTouch","left arrow tapped.");
+						thisIsThePieceToBeMoved=pieceMovedList.get(pieceMovedList.size()-1);
+						movePiece(toList.get(toList.size()-1),fromList.get(fromList.size()-1),true,false);
+						hm.put(toList.get(toList.size()-1),pieceCapturedList.get(pieceCapturedList.size()-1));
+						Log.d("in mainActivity.onTouch","should have moved "+thisIsThePieceToBeMoved+" from "+toList.get(toList.size()-1)+" to "+fromList.get(fromList.size()-1)+"");
+						pieceMovedList.remove(pieceMovedList.size()-1);
+						toList.remove(toList.size()-1);
+						fromList.remove(fromList.size()-1);
+						pieceCapturedList.remove(pieceCapturedList.size()-1);
+						chessboard.invalidate();
+					}
+					else{//do nothing
+					}
+
+				}
+			}
+
+
+
+			if((event.getX()>squareWidthF*4) && (event.getX()<squareWidthF*7))
+			{
+				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				{
+					if(toListForward.size()>0)
+					{
+						Log.d("In MainActivity.movePiece()","right arrow tapped.");
+						thisIsThePieceToBeMoved=pieceMovedListForward.get(pieceMovedListForward.size()-1);
+						movePiece(toListForward.get(toListForward.size()-1),fromListForward.get(fromListForward.size()-1),false,true);
+						hm.put(toListForward.get(toListForward.size()-1),pieceCapturedListForward.get(pieceCapturedListForward.size()-1));
+						pieceMovedListForward.remove(pieceMovedListForward.size()-1);
+						toListForward.remove(toListForward.size()-1);
+						fromListForward.remove(fromListForward.size()-1);	
+						pieceCapturedListForward.remove(pieceCapturedListForward.size()-1);
+						chessboard.invalidate();
+					}
+					else
+					{
+						//do nothing
+					}
+				}
+			}
+			Log.d("at end of on touch","this should only show once for every touch");
+
+		case MotionEvent.ACTION_UP:break;
+		}
+		Log.d("in onTouch","exiting");
+		return true;
+
+	}
+	void dragAndDropMove(String piece,String fromSquare, String toSquare, View view)
+
+	{
+		ClipData data = ClipData.newPlainText("", "");
+		DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(view);
+		view.startDrag(data, shadowBuilder, view, 0);
+		view.setVisibility(View.INVISIBLE);
+	}
+	@Override
+	public void onBackPressed() {
+		new AlertDialog.Builder(this)
+		.setIcon(android.R.drawable.ic_dialog_alert)
+		.setTitle("Closing Activity")
+		.setMessage("Are you sure you want to exit Chessboard?")
+		.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+		{
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				finish();    
+			}
+
+		})
+		.setNegativeButton("No", null)
+		.show();
+	}
+
+
+}

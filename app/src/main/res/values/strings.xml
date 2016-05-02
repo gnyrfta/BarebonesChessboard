@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">Chessboard</string>
+    <string name="hello_world">hello_world</string>
+    <string name="action_settings">Chess</string>
+    <string name="action_search">Search</string>
+    <string name="action_preferences">Preferences</string>
+    <!--
+    <string name="background_color">Change Background</string>
+    <string name="background_color_default">grey</string>
+    -->
+    <string name="chess_set">Chess Set</string>
+    <string name="chess_set_default">staunton</string>
+    <string name="orientation">Orientation</string>
+    <string name="orientation_default">white_down</string>
+    <string name="sound">Sound on</string>
+    <string name="piece_movement">Piece Movement</string>
+    <string name="piece_movement_default">Two Touch</string>
+    <!--
+    <string-array name="background_color_entries">
+        <item>grey</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>    
+        <string-array name="background_color_values">
+        <item>grey</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+    -->
+    <string-array name="chess_set_entries">
+        <item>freak</item>
+        <item>eyes</item>
+        <item>staunton</item>
+       <!-- <item>wooden</item> -->
+    </string-array>
+    <string-array name="chess_set_values">
+        <item>freak</item>
+        <item>eyes</item>
+        <item>staunton</item>
+     <!--   <item>wooden</item>-->
+    </string-array>
+    <string-array name="orientation_entries">
+        <item>white_down</item>
+        <item>white_right</item>
+        <item>white_up</item>
+        <item>white_left</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>white_down</item>
+        <item>white_right</item>
+        <item>white_up</item>
+        <item>white_left</item>
+    </string-array>
+    <string-array name="piece_movement_entries">
+        <item>Drag and Drop</item>
+        <item>Two Touch</item>
+    </string-array>
+    <string-array name="piece_movement_values">
+        <item>Drag and Drop</item>
+        <item>Two Touch</item>
+    </string-array>
+
+    <string name="about">About app.</string>
+    <string name="about_message">App made by David Jacobsson.\nLorem Ipsum Dolor</string>
+
+</resources>

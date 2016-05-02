@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/release/layout/activity_splash.xml",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/layout/activity_splash.xml"
+    }
+]
