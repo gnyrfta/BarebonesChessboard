@@ -69,6 +69,8 @@ public class ChessBoard extends View {
 	private Drawable whiteKingStaunton;
 	private Drawable leftArrow;
 	private Drawable rightArrow;
+	private Drawable resetButton;
+	private Drawable clearButton;
 	//
 	private String movingPiece="";
 	public float squareWidthF;
@@ -140,7 +142,7 @@ public class ChessBoard extends View {
 		Log.d("in constructor","exiting");
 	}
 	protected void onDraw(Canvas canvas) {
-		Log.d("in onDraw","entering");
+		Log.d("in onDraw", "entering");
 		// super.onDraw(canvas);
 		Canvas singleUseCanvas = new Canvas();      
 		//is this bitmap ever used?:
@@ -166,7 +168,7 @@ public class ChessBoard extends View {
 	}
 	private void drawBoard(Canvas canvas)
 	{
-		Log.d("In drawBoard","entering");
+		Log.d("In drawBoard", "entering");
 		String color = "";
 		int i=0;
 		int j=0;
@@ -279,9 +281,9 @@ public class ChessBoard extends View {
 		int h = canvas.getHeight();
 		int boardLength = squareWidthI*8;
 
-		Log.d("this is canvas width",""+w);
-		Log.d("this is canvas height",""+h);
-		Log.d("this is board length: ",""+boardLength);
+		Log.d("this is canvas width", "" + w);
+		Log.d("this is canvas height", "" + h);
+		Log.d("this is board length: ", "" + boardLength);
 		Log.d("in drawBoard","exiting");
 	}
 	private void drawWhitePawn(Canvas canvas,int posX, int posY)
@@ -289,7 +291,7 @@ public class ChessBoard extends View {
 		//I want the image to be the same size as the square, so I don't need to worry about positioning.  
 		// Rect imageBounds = canvas.getClipBounds();  // Adjust this for where you want it
 
-		whitePawn.setBounds(posX,posY,posX+squareWidthI,posY+squareWidthI);
+		whitePawn.setBounds(posX, posY, posX + squareWidthI, posY + squareWidthI);
 		whitePawn.draw(canvas);
 
 		/*
@@ -309,7 +311,7 @@ public class ChessBoard extends View {
 		//I want the image to be the same size as the square, so I don't need to worry about positioning.  
 		// Rect imageBounds = canvas.getClipBounds();  // Adjust this for where you want it
 
-		whiteRook.setBounds(posX,posY,posX+squareWidthI,posY+squareWidthI);
+		whiteRook.setBounds(posX, posY, posX + squareWidthI, posY + squareWidthI);
 		whiteRook.draw(canvas);
 
 		/*
@@ -673,6 +675,8 @@ public class ChessBoard extends View {
 		drawBlackPawn(canvas,squareWidthI*7,9*squareWidthI);
 		drawLeftArrow(canvas,squareWidthI*2,squareWidthI*10);
 		drawRightArrow(canvas,squareWidthI*5,squareWidthI*10);
+		drawClearButton(canvas,2,squareWidthI*10);
+		drawResetButton(canvas,squareWidthI*6+2,squareWidthI*10);
 		Log.d("inDrawGameStart","exiting");
 		Log.d("inDrawGameStart","Orientation: "+orientation+"");
 
@@ -683,6 +687,8 @@ public class ChessBoard extends View {
 	{
 		leftArrow=context.getResources().getDrawable(R.drawable.left_button);
 		rightArrow=context.getResources().getDrawable(R.drawable.right_button);
+		resetButton=context.getResources().getDrawable(R.drawable.reset_button);
+		clearButton=context.getResources().getDrawable(R.drawable.clear_button);
 
 		if(chosenSet.equals("wood"))
 		{
@@ -783,7 +789,8 @@ public class ChessBoard extends View {
 				//this should go in an own method:
 				for(j=0;j<8;j++)
 				{	
-					String test = rows[i]+columns[j];
+		drawClearButton(canvas,2,squareWidthI*10);
+		drawResetButton(canvas,squareWidthI*6+2,squareWidthI*10);					String test = rows[i]+columns[j];
 					//Log.d("this is test: ",test);
 					try
 					{
@@ -835,7 +842,8 @@ public class ChessBoard extends View {
 						}
 						else if(piece.equals("black bishop"))
 						{
-							drawBlackBishop(canvas,squareWidthI*j,squareWidthI*i);
+		drawClearButton(canvas,2,squareWidthI*10);
+		drawResetButton(canvas,squareWidthI*6+2,squareWidthI*10);							drawBlackBishop(canvas,squareWidthI*j,squareWidthI*i);
 						}
 						else if(piece.equals("black queen"))
 						{
@@ -1079,14 +1087,16 @@ public class ChessBoard extends View {
 		drawWhiteRook(canvas,squareWidthI,9*squareWidthI);
 		drawWhitePawn(canvas,squareWidthI*2,9*squareWidthI);
 		//Drawing black extra pieces:
-		drawBlackKing(canvas,squareWidthI*5,8*squareWidthI);
-		drawBlackQueen(canvas,squareWidthI*6,8*squareWidthI);
-		drawBlackBishop(canvas,squareWidthI*7,8*squareWidthI);
-		drawBlackKnight(canvas,squareWidthI*5,9*squareWidthI);
-		drawBlackRook(canvas,squareWidthI*6,9*squareWidthI);
-		drawBlackPawn(canvas,squareWidthI*7,9*squareWidthI);
-		drawLeftArrow(canvas,squareWidthI*2,squareWidthI*10);
+		drawBlackKing(canvas,squareWidthI * 5, 8 * squareWidthI);
+		drawBlackQueen(canvas,squareWidthI * 6, 8 * squareWidthI);
+		drawBlackBishop(canvas, squareWidthI * 7, 8 * squareWidthI);
+		drawBlackKnight(canvas, squareWidthI * 5, 9 * squareWidthI);
+		drawBlackRook(canvas, squareWidthI * 6, 9 * squareWidthI);
+		drawBlackPawn(canvas, squareWidthI * 7, 9 * squareWidthI);
+		drawLeftArrow(canvas,squareWidthI * 2, squareWidthI * 10);
 		drawRightArrow(canvas,squareWidthI*5,squareWidthI*10);
+		drawClearButton(canvas,2,squareWidthI*10);
+		drawResetButton(canvas,squareWidthI*6+2,squareWidthI*10);
 		//there is drawn an extra piece here because the 
 		//
 		if(dragging)
@@ -1227,6 +1237,18 @@ public class ChessBoard extends View {
 	{
 		rightArrow.setBounds(posX,posY,posX+squareWidthI,posY+squareWidthI);
 		rightArrow.draw(canvas);  	
+	}
+	void drawResetButton(Canvas canvas, int posX, int posY)
+	{
+		//these are kind of improvised bounds and will squish the button a bit.
+		resetButton.setBounds(posX,posY,posX+squareWidthI*2,posY+squareWidthI);
+		resetButton.draw(canvas);
+	}
+	void drawClearButton(Canvas canvas, int posX, int posY)
+	{
+		//these are kind of improvised bounds and will squish the button a bit.
+		clearButton.setBounds(posX, posY, posX + squareWidthI * 2, posY + squareWidthI);
+		clearButton.draw(canvas);
 	}
 	void setDragging(boolean isDragging)
 	{
