@@ -842,8 +842,7 @@ public class ChessBoard extends View {
 						}
 						else if(piece.equals("black bishop"))
 						{
-		drawClearButton(canvas,2,squareWidthI*10);
-		drawResetButton(canvas,squareWidthI*6+2,squareWidthI*10);							drawBlackBishop(canvas,squareWidthI*j,squareWidthI*i);
+						drawBlackBishop(canvas,squareWidthI*j,squareWidthI*i);
 						}
 						else if(piece.equals("black queen"))
 						{

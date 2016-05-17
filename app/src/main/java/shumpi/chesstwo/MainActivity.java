@@ -104,10 +104,10 @@ public class MainActivity extends Activity implements OnTouchListener {
 		//setBackground(background);
 		setChessSet(chosenSet);
 		setOrientation(orientation);
-		Log.d("Orientation: ",""+orientation+"");
+		Log.d("Orientation: ", "" + orientation + "");
 		chessboard.invalidate();
 		//mp.start();
-		Log.d("in onResume","sound: "+sound+"");
+		Log.d("in onResume", "sound: " + sound + "");
 		//Here should release resources and load new images. 
 		/*getPreferenceScreen().getSharedPreferences()
 	            .registerOnSharedPreferenceChangeListener(this);*/
@@ -187,14 +187,14 @@ public class MainActivity extends Activity implements OnTouchListener {
 	{
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);//Mumbo Jumbo
-		Log.d("in OnCreateOptionsMenu","");
+		Log.d("in OnCreateOptionsMenu", "");
 		return true;
 	}
 	public String querySquare(String coordinates) //What piece is on the square?
 	{
 		Log.d("inquerySquare","entering");
 		String thisIsAnswer = hm.get(coordinates);
-		Log.d("in querySquare","this is answer_ "+thisIsAnswer);
+		Log.d("in querySquare", "this is answer_ " + thisIsAnswer);
 		Log.d("inquerySquare","exiting");
 		if (thisIsAnswer==null)
 		{
@@ -260,6 +260,192 @@ public class MainActivity extends Activity implements OnTouchListener {
 		hm.put("a5","empty");
 		hm.put("b5","empty");
 		hm.put("c5","empty");
+		hm.put("d5","empty");
+		hm.put("e5","empty");
+		hm.put("f5","empty");
+		hm.put("g5","empty");
+		hm.put("h5","empty");
+		//
+		hm.put("a6","empty");
+		hm.put("b6","empty");
+		hm.put("c6","empty");
+		hm.put("d6","empty");
+		hm.put("e6","empty");
+		hm.put("f6","empty");
+		hm.put("g6","empty");
+		hm.put("h6","empty");
+		Log.d("testing","testing");
+		//placing the extra pieces
+		hm.put("i1","white king");
+		hm.put("i2","white queen");
+		hm.put("i3","white bishop");
+		hm.put("j1","white knight");
+		hm.put("j2","white rook");
+		hm.put("j3","white pawn");
+		//placing the extra black pieces:
+		hm.put("i6","black king");
+		hm.put("i7","black queen");
+		hm.put("i8","black bishop");
+		hm.put("j6","black knight");
+		hm.put("j7","black rook");
+		hm.put("j8","black pawn");
+		//empty squares rows 9 and 10:
+		hm.put("i4","empty");
+		hm.put("i5","empty");
+		hm.put("j4","empty");
+		hm.put("j5","empty");
+
+		Log.d("ingameStart","exiting");
+	}
+	public static void clearBoard()
+	{
+		Log.d("in clear board", "entering");
+		hm.put("a2","empty");
+		hm.put("b2","empty");
+		hm.put("c2","empty");
+		hm.put("d2","empty");
+		hm.put("e2","empty");
+		hm.put("f2","empty");
+		hm.put("g2","empty");
+		hm.put("h2","empty");
+		hm.put("a1","empty");
+		hm.put("b1","empty");
+		hm.put("c1","empty");
+		hm.put("d1","empty");
+		hm.put("e1","empty");
+		hm.put("f1","empty");
+		hm.put("g1","empty");
+		hm.put("h1","empty");
+		//
+		hm.put("a7", "empty");
+		hm.put("b7", "empty");
+		hm.put("c7", "empty");
+		hm.put("d7", "empty");
+		hm.put("e7", "empty");
+		hm.put("f7", "empty");
+		hm.put("g7", "empty");
+		hm.put("h7", "empty");
+		hm.put("a8", "empty");
+		hm.put("b8","empty");
+		hm.put("c8","empty");
+		hm.put("d8","empty");
+		hm.put("e8","empty");
+		hm.put("f8", "empty");
+		hm.put("g8", "empty");
+		hm.put("h8","empty");
+		//
+		hm.put("a3","empty");
+		hm.put("b3","empty");
+		hm.put("c3","empty");
+		hm.put("d3","empty");
+		hm.put("e3","empty");
+		hm.put("f3","empty");
+		hm.put("g3","empty");
+		hm.put("h3","empty");
+		//
+		hm.put("a4","empty");
+		hm.put("b4","empty");
+		hm.put("c4","empty");
+		hm.put("d4","empty");
+		hm.put("e4","empty");
+		hm.put("f4","empty");
+		hm.put("g4","empty");
+		hm.put("h4","empty");
+		//
+		hm.put("a5","empty");
+		hm.put("b5","empty");
+		hm.put("c5", "empty");
+		hm.put("a2","empty");
+		hm.put("b2","empty");
+		hm.put("c2","empty");
+		hm.put("d2","empty");
+		hm.put("e2","empty");
+		hm.put("f2","empty");
+		hm.put("g2","empty");
+		hm.put("h2","empty");
+		hm.put("a1","empty");
+		hm.put("b1","empty");
+		hm.put("c1","empty");
+		hm.put("d1","empty");
+		hm.put("e1","empty");
+		hm.put("f1","empty");
+		hm.put("g1","empty");
+		hm.put("h1","empty");
+		//
+		hm.put("a7", "empty");
+		hm.put("b7", "empty");
+		hm.put("c7", "empty");
+		hm.put("d7", "empty");
+		hm.put("e7", "empty");
+		hm.put("f7", "empty");
+		hm.put("g7", "empty");
+		hm.put("h7", "empty");
+		hm.put("a8", "empty");
+		hm.put("b8","empty");
+		hm.put("c8","empty");
+		hm.put("d8","empty");
+		hm.put("e8","empty");
+		hm.put("f8", "empty");
+		hm.put("g8", "empty");
+		hm.put("h8","empty");
+		//
+		hm.put("a3","empty");
+		hm.put("b3","empty");
+		hm.put("c3","empty");
+		hm.put("d3","empty");
+		hm.put("e3","empty");
+		hm.put("f3","empty");
+		hm.put("g3","empty");
+		hm.put("h3","empty");
+		//
+		hm.put("a4","empty");
+		hm.put("b4","empty");
+		hm.put("c4","empty");
+		hm.put("d4","empty");
+		hm.put("e4","empty");
+		hm.put("f4","empty");
+		hm.put("g4","empty");
+		hm.put("h4","empty");
+		//
+		hm.put("a5","empty");
+		hm.put("b5","empty");
+		hm.put("c5","empty");
+		hm.put("d5","empty");
+		hm.put("e5","empty");
+		hm.put("f5","empty");
+		hm.put("g5","empty");
+		hm.put("h5","empty");
+		//
+		hm.put("a6","empty");
+		hm.put("b6","empty");
+		hm.put("c6","empty");
+		hm.put("d6","empty");
+		hm.put("e6","empty");
+		hm.put("f6","empty");
+		hm.put("g6","empty");
+		hm.put("h6","empty");
+		Log.d("testing","testing");
+		//placing the extra pieces
+		hm.put("i1","white king");
+		hm.put("i2","white queen");
+		hm.put("i3","white bishop");
+		hm.put("j1","white knight");
+		hm.put("j2","white rook");
+		hm.put("j3","white pawn");
+		//placing the extra black pieces:
+		hm.put("i6","black king");
+		hm.put("i7","black queen");
+		hm.put("i8","black bishop");
+		hm.put("j6","black knight");
+		hm.put("j7","black rook");
+		hm.put("j8","black pawn");
+		//empty squares rows 9 and 10:
+		hm.put("i4","empty");
+		hm.put("i5","empty");
+		hm.put("j4","empty");
+		hm.put("j5","empty");
+
+		Log.d("ingameStart","exiting");
 		hm.put("d5","empty");
 		hm.put("e5","empty");
 		hm.put("f5","empty");
@@ -619,7 +805,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 						else
 						{
 							xCo = event.getX();
-							yCo = event.getY();
+							yCo = event.getY();Log.d("in gameStart","entering");
 						}
 					}
 					else if(chessboard.orientation.equals("white_down"))
@@ -930,7 +1116,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 		switch(action)
 		{
 		case MotionEvent.ACTION_DOWN:
-			if((event.getX()>squareWidthF*1) && (event.getX()<squareWidthF*4))
+			if((event.getX()>squareWidthF*2) && (event.getX()<squareWidthF*4))
 			{
 				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
 				{
@@ -952,10 +1138,54 @@ public class MainActivity extends Activity implements OnTouchListener {
 
 				}
 			}
+			//Here is the place to put in the reaction to clear the board or reset the board.
+			if(event.getX()<squareWidthF*2)
+			{
+				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				{
+					new AlertDialog.Builder(this)
+							.setIcon(android.R.drawable.ic_dialog_alert)
+							.setTitle("Closing Activity")
+							.setMessage("Clear board and movement history?")
+							.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+							{
+								@Override
+								public void onClick(DialogInterface dialog, int which) {
+									clearBoard();clearLists();chessboard.invalidate();
+								}
+
+							})
+							.setNegativeButton("No", null)
+							.show();
+					//clear board.
+				}
+			}
+			if(event.getX()>squareWidthF*6)
+			{
+				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				{
+					new AlertDialog.Builder(this)
+							.setIcon(android.R.drawable.ic_dialog_alert)
+							.setTitle("Closing Activity")
+							.setMessage("Reset board and movement history?")
+							.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+							{
+								@Override
+								public void onClick(DialogInterface dialog, int which) {
+									gameStart();clearLists();chessboard.invalidate();
+								}
+
+							})
+							.setNegativeButton("No", null)
+							.show();
+					//reset board.
+
+				}
+			}
 
 
 
-			if((event.getX()>squareWidthF*4) && (event.getX()<squareWidthF*7))
+			if((event.getX()>squareWidthF*4) && (event.getX()<squareWidthF*6))
 			{
 				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
 				{
@@ -1010,6 +1240,17 @@ public class MainActivity extends Activity implements OnTouchListener {
 		.setNegativeButton("No", null)
 		.show();
 	}
-
+public void clearLists()
+{
+	fromList.clear();
+	toList.clear();
+	pieceMovedList.clear();
+	pieceCapturedList.clear();
+	fromList.clear();
+	fromListForward.clear();
+	toListForward.clear();
+	pieceMovedListForward.clear();
+	pieceCapturedListForward.clear();
+}
 
 }
