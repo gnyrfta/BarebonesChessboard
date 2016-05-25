@@ -15,6 +15,7 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
     public static final String KEY_ORIENTATION="orientation";
     public static final String KEY_INFO = "info";
     public static final String KEY_MOVEMENT = "piece_movement";
+    public static final String KEY_NOTATION="notation";
     
     @SuppressWarnings("deprecation")
 	@Override
@@ -35,35 +36,42 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             if (key.equals(KEY_CHESS_SET)) {
                 @SuppressWarnings("deprecation")
 				Preference chessSet = findPreference(key);
-                Log.d("in OnSharedPreferenceChanged","KEY_CHESS_SET has been changed");
+                Log.d("SETTINGS","KEY_CHESS_SET has been changed");
                 // Set summary to be the user-description for the selected value
                 chessSet.setSummary(sharedPreferences.getString(key, ""));
             }
             if (key.equals(KEY_SOUND_ON)) {
                 @SuppressWarnings("deprecation")
 				Preference sound = findPreference(key);
-                Log.d("in OnSharedPreferenceChanged","KEY_SOUND_ON has been changed");
+                Log.d("SETTINGS","KEY_SOUND_ON has been changed");
                 // Set summary to be the user-description for the selected value
                 sound.setSummary(sharedPreferences.getString(key, ""));
             }
             if (key.equals(KEY_ORIENTATION)) {
                 @SuppressWarnings("deprecation")
 				Preference orientation = findPreference(key);
-                Log.d("in OnSharedPreferenceChanged","KEY_ORIENTATION has been changed");
+                Log.d("SETTINGS","KEY_ORIENTATION has been changed");
                 // Set summary to be the user-description for the selected value
                 orientation.setSummary(sharedPreferences.getString(key, ""));
             }
             if (key.equals(KEY_INFO)) {
                 @SuppressWarnings("deprecation")
                 Preference info = findPreference(key);
-                Log.d("in OnSharedPreferenceChanged","KEY_ORIENTATION has been changed");
+                Log.d("SETTINGS","KEY_ORIENTATION has been changed");
                 // Set summary to be the user-description for the selected value
                 info.setSummary(sharedPreferences.getString(key, ""));
             }
             if(key.equals(KEY_MOVEMENT))
             {
                 Preference info = findPreference(key);
-                Log.d("in OnSharedPreferenceChanged","KEY_ORIENTATION has been changed");
+                Log.d("SETTINGS","KEY_MOVEMENT has been changed");
+                // Set summary to be the user-description for the selected value
+                info.setSummary(sharedPreferences.getString(key, ""));
+            }
+            if(key.equals(KEY_NOTATION))
+            {
+                Preference info = findPreference(key);
+                Log.d("SETTINGS","KEY_NOTATION CHANGED");
                 // Set summary to be the user-description for the selected value
                 info.setSummary(sharedPreferences.getString(key, ""));
             }

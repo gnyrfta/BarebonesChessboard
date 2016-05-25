@@ -43,6 +43,8 @@
     <string name="chess_set">Chess Set</string>
     <string name="chess_set_default">staunton</string>
     <string name="hello_world">hello_world</string>
+    <string name="notation">Algebraic Notation</string>
+    <string name="notation_default">Off</string>
     <string name="orientation">Orientation</string>
     <string name="orientation_default">white_down</string>
     <string name="piece_movement">Piece Movement</string>

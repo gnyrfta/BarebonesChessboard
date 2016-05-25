@@ -60,7 +60,8 @@
         <item>Drag and Drop</item>
         <item>Two Touch</item>
     </string-array>
-
+    <string name="notation">Algebraic Notation</string>
+    <string name="notation_default">Off</string>
     <string name="about">About app.</string>
     <string name="about_message">App made by David Jacobsson.\nLorem Ipsum Dolor</string>
 

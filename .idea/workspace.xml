@@ -6,54 +6,476 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="this is m" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" line="56" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" line="57" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="804533ac-2f4c-42c4-a7c8-08029126831d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/eight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/eight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/eight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/eight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/seven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/seven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/seven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/seven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/two.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/shumpi/chesstwo/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/shumpi/chesstwo/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values-sw720dp-land-v13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi/values.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-ldpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/layout.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/menu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/raw.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/xml.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/ChessBoard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/MyDialogPreference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/SettingsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/SplashScreen$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/shumpi/chesstwo/SplashScreen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-20.0.0_827401b49ae7f2a4567b5d1decf06285f727099a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/internal_impl-20.0.0_89662e4eb99c554b86c8e1244435ce3ec960ce9d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/release_ae2bbd0184ad25d2ba564abb3812256c4fb26d2f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/support-annotations-20.0.0_d575e9ca204c6d09612d583661f0b81b4f4153ea.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishop_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishop_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishopb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishopbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishopw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bishopwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/black_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/bq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/br_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/chessboard_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_menu_preferences_inverted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/king_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/king_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/kingb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/kingbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/kingw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/kingwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knight_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knight_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knightb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knightbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knightw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/knightwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/left_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/marble_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/marble_low_res.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/marble_low_res_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawn_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawn_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawnb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawnbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawnw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/pawnwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queen_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queen_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queenb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queenbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queenw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/queenwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/right_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/rook_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/rook_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/rookb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/rookbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/rookwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/splash_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/splash_screen_pixel_chameleon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/white_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/whitemarble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wr_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishop_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishop_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishopb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishopbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishopw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/bishopwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/black_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/chessboard_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/ic_menu_preferences_inverted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/king_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/king_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/kingb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/kingbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/kingw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/kingwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knight_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knight_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knightb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knightbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knightw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/knightwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/left_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/marble_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/marble_low_res.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/marble_low_res_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawn_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawn_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawnb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawnbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawnw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/pawnwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queen_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queen_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queenb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queenbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queenw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/queenwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/right_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rook_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rook_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rookb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rookbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rookw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/rookwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/splash_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/splash_screen_pixel_chameleon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/splash_screen_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/white_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldpi-v4/whitemarble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/br_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi-v4/wr_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishop_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishop_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishopb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishopbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishopw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bishopwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/black_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/bq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/br_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/chessboard_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/ic_menu_preferences_inverted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/king_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/king_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/kingb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/kingbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/kingw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/kingwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knight_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knight_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knightb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knightbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knightw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/knightwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/left_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/marble_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/marble_low_res.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/marble_low_res_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawn_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawn_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawnb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawnbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawnw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/pawnwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queen_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queen_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queenb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queenbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queenw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/queenwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/right_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/rook_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/rook_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/rookb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/rookbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/rookwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/splash_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/splash_screen_pixel_chameleon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/white_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/whitemarble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/wr_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishop_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishop_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishopb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishopbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishopw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bishopwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/black_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/bq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/br_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/chessboard_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_menu_preferences_inverted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/king_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/king_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/kingb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/kingbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/kingw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/kingwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knight_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knight_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knightb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knightbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knightw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/knightwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/left_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/marble_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/marble_low_res.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/marble_low_res_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawn_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawn_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawnb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawnbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawnw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/pawnwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queen_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queen_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queenb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queenbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queenw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/queenwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/right_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/rook_b_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/rook_w_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/rookb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/rookbwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/rookwwooden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/splash_screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/splash_screen_pixel_chameleon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wb_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_bishop_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_king_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_knight_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_pawn_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_queen_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/white_rook_free_staunton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/whitemarble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wk_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wn_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wp_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wq_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4/wr_freak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_splash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/menu/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/raw/gamestart.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/raw/movement.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/xml/preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-release.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-release-unaligned.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/lint-results-release-fatal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/lint-results-release-fatal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/lint-results-release-fatal_files/hololike.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/ChessBoard.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/ChessBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/SettingsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-20.0.0_827401b49ae7f2a4567b5d1decf06285f727099a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-20.0.0_827401b49ae7f2a4567b5d1decf06285f727099a.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b9038bc986a88a7090553c1cd597ed17ee63fdd4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b9038bc986a88a7090553c1cd597ed17ee63fdd4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0_89662e4eb99c554b86c8e1244435ce3ec960ce9d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0_89662e4eb99c554b86c8e1244435ce3ec960ce9d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0_d575e9ca204c6d09612d583661f0b81b4f4153ea.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0_d575e9ca204c6d09612d583661f0b81b4f4153ea.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_bishop_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_bishop_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/white_king_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/white_king_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/white_rook_free_staunton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/white_rook_free_staunton.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java" afterPath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/shumpi/chesstwo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/shumpi/chesstwo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChessboardThree.iws" />
@@ -87,42 +509,47 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="734" column="0" selection-start-line="734" selection-start-column="0" selection-end-line="734" selection-end-column="0" />
+              <caret line="1141" column="16" selection-start-line="1141" selection-start-column="16" selection-end-line="1141" selection-end-column="16" />
               <folding>
                 <element signature="method#ChessBoard#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#2705#2752#0" expanded="false" />
+                <element signature="e#3162#3209#0" expanded="false" />
+                <element signature="method#onDraw#0;class#ChessBoard#0" expanded="false" />
                 <element signature="method#drawBoard#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#8812#8849#0" expanded="false" />
-                <element signature="e#9250#9367#0" expanded="false" />
-                <element signature="e#9585#9700#0" expanded="false" />
+                <element signature="e#9609#9646#0" expanded="false" />
+                <element signature="e#10536#10653#0" expanded="false" />
+                <element signature="e#10875#10990#0" expanded="false" />
                 <element signature="method#drawWhitePawn#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#10223#10322#0" expanded="false" />
+                <element signature="e#25013#25112#0" expanded="false" />
                 <element signature="method#drawWhiteRook#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#10789#10888#0" expanded="false" />
+                <element signature="e#25579#25678#0" expanded="false" />
                 <element signature="method#drawBlackRook#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#11354#11453#0" expanded="false" />
+                <element signature="e#26144#26243#0" expanded="false" />
                 <element signature="method#drawWhiteKnight#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#11914#12013#0" expanded="false" />
+                <element signature="e#26704#26803#0" expanded="false" />
                 <element signature="method#drawBlackKnight#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#12602#12701#0" expanded="false" />
+                <element signature="e#27392#27491#0" expanded="false" />
                 <element signature="method#drawWhiteBishop#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#13290#13389#0" expanded="false" />
+                <element signature="e#28080#28179#0" expanded="false" />
                 <element signature="method#drawBlackBishop#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#13981#14080#0" expanded="false" />
+                <element signature="e#28771#28870#0" expanded="false" />
                 <element signature="method#drawBlackQueen#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#14668#14767#0" expanded="false" />
+                <element signature="e#29458#29557#0" expanded="false" />
                 <element signature="method#drawWhiteQueen#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#15350#15449#0" expanded="false" />
+                <element signature="e#30140#30239#0" expanded="false" />
                 <element signature="method#drawWhiteKing#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#16031#16130#0" expanded="false" />
+                <element signature="e#30821#30920#0" expanded="false" />
                 <element signature="method#drawBlackKing#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#16705#16804#0" expanded="false" />
+                <element signature="e#31495#31594#0" expanded="false" />
                 <element signature="method#drawBlackPawn#0;class#ChessBoard#0" expanded="false" />
-                <element signature="e#17379#17478#0" expanded="false" />
-                <element signature="e#19772#19787#0" expanded="false" />
-                <element signature="e#21339#21354#0" expanded="false" />
-                <element signature="e#30332#30385#0" expanded="false" />
-                <element signature="e#38750#38799#0" expanded="false" />
+                <element signature="e#32169#32268#0" expanded="false" />
+                <element signature="method#drawGameStart#0;class#ChessBoard#0" expanded="false" />
+                <element signature="e#33669#33684#0" expanded="false" />
+                <element signature="e#34990#35005#0" expanded="false" />
+                <element signature="e#36794#36809#0" expanded="false" />
+                <element signature="e#38576#38591#0" expanded="false" />
+                <element signature="method#loadDrawable#0;class#ChessBoard#0" expanded="false" />
+                <element signature="e#47264#47317#0" expanded="false" />
+                <element signature="e#56843#56892#0" expanded="false" />
                 <element signature="method#checkPieceMoving#0;class#ChessBoard#0" expanded="false" />
                 <element signature="method#invertRows#0;class#ChessBoard#0" expanded="false" />
                 <element signature="method#invertColumn#0;class#ChessBoard#0" expanded="false" />
@@ -137,41 +564,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1162" column="42" selection-start-line="1162" selection-start-column="42" selection-end-line="1162" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.077120826">
+              <caret line="921" column="82" selection-start-line="921" selection-start-column="82" selection-end-line="921" selection-end-column="82" />
               <folding>
-                <element signature="e#3710#3796#0" expanded="false" />
-                <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#setChessSet#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#3745#3831#0" expanded="false" />
+                <element signature="e#4640#4740#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#querySquare#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
-                <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#movePiece#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#14680#14777#0" expanded="false" />
-                <element signature="method#playSoundClip#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#16477#16533#0" expanded="false" />
-                <element signature="e#22355#22357#0" expanded="false" />
-                <element signature="e#25078#25110#0" expanded="false" />
-                <element signature="e#25783#25839#0" expanded="false" />
-                <element signature="e#29883#29950#0" expanded="false" />
+                <element signature="e#15314#15411#0" expanded="false" />
+                <element signature="e#17381#17437#0" expanded="false" />
+                <element signature="e#23527#23529#0" expanded="false" />
+                <element signature="e#26524#26556#0" expanded="false" />
+                <element signature="e#27229#27285#0" expanded="false" />
+                <element signature="e#32060#32127#0" expanded="false" />
+                <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13812155">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1709,11 +2124,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1723,6 +2139,9 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -1744,7 +2163,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1756,57 +2175,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessboardThree" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessboardThree" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessboardThree" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChessboardThree" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1856,9 +2224,125 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chesstwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chesstwo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1877,8 +2361,8 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-ldpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-ldpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -2069,23 +2553,23 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.077294685" sideWeight="0.51633465" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27697262" sideWeight="0.7816733" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.077294685" sideWeight="0.48366535" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077294685" sideWeight="0.4868526" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25603864" sideWeight="0.70996016" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33558178" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27697262" sideWeight="0.21832669" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.4876494" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.48446214" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15298805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3003984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20956175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49083665" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2113,7 +2597,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2121,42 +2605,47 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="734" column="0" selection-start-line="734" selection-start-column="0" selection-end-line="734" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#ChessBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#2705#2752#0" expanded="false" />
+            <element signature="e#3162#3209#0" expanded="false" />
+            <element signature="method#onDraw#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#drawBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#8812#8849#0" expanded="false" />
-            <element signature="e#9250#9367#0" expanded="false" />
-            <element signature="e#9585#9700#0" expanded="false" />
+            <element signature="e#9609#9646#0" expanded="false" />
+            <element signature="e#10536#10653#0" expanded="false" />
+            <element signature="e#10875#10990#0" expanded="false" />
             <element signature="method#drawWhitePawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10223#10322#0" expanded="false" />
+            <element signature="e#25013#25112#0" expanded="false" />
             <element signature="method#drawWhiteRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10789#10888#0" expanded="false" />
+            <element signature="e#25579#25678#0" expanded="false" />
             <element signature="method#drawBlackRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11354#11453#0" expanded="false" />
+            <element signature="e#26144#26243#0" expanded="false" />
             <element signature="method#drawWhiteKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11914#12013#0" expanded="false" />
+            <element signature="e#26704#26803#0" expanded="false" />
             <element signature="method#drawBlackKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#12602#12701#0" expanded="false" />
+            <element signature="e#27392#27491#0" expanded="false" />
             <element signature="method#drawWhiteBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13290#13389#0" expanded="false" />
+            <element signature="e#28080#28179#0" expanded="false" />
             <element signature="method#drawBlackBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13981#14080#0" expanded="false" />
+            <element signature="e#28771#28870#0" expanded="false" />
             <element signature="method#drawBlackQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#14668#14767#0" expanded="false" />
+            <element signature="e#29458#29557#0" expanded="false" />
             <element signature="method#drawWhiteQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#15350#15449#0" expanded="false" />
+            <element signature="e#30140#30239#0" expanded="false" />
             <element signature="method#drawWhiteKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16031#16130#0" expanded="false" />
+            <element signature="e#30821#30920#0" expanded="false" />
             <element signature="method#drawBlackKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16705#16804#0" expanded="false" />
+            <element signature="e#31495#31594#0" expanded="false" />
             <element signature="method#drawBlackPawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#17379#17478#0" expanded="false" />
-            <element signature="e#19772#19787#0" expanded="false" />
-            <element signature="e#21339#21354#0" expanded="false" />
-            <element signature="e#30332#30385#0" expanded="false" />
-            <element signature="e#38750#38799#0" expanded="false" />
+            <element signature="e#32169#32268#0" expanded="false" />
+            <element signature="method#drawGameStart#0;class#ChessBoard#0" expanded="false" />
+            <element signature="e#33669#33684#0" expanded="false" />
+            <element signature="e#34990#35005#0" expanded="false" />
+            <element signature="e#36794#36809#0" expanded="false" />
+            <element signature="e#38576#38591#0" expanded="false" />
+            <element signature="method#loadDrawable#0;class#ChessBoard#0" expanded="false" />
+            <element signature="e#47264#47317#0" expanded="false" />
+            <element signature="e#56843#56892#0" expanded="false" />
             <element signature="method#checkPieceMoving#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#invertRows#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#invertColumn#0;class#ChessBoard#0" expanded="false" />
@@ -2167,6 +2656,61 @@
             <element signature="method#drawResetButton#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#drawClearButton#0;class#ChessBoard#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+          <folding>
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#3745#3831#0" expanded="false" />
+            <element signature="e#4640#4740#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#movePiece#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#15314#15411#0" expanded="false" />
+            <element signature="e#17381#17437#0" expanded="false" />
+            <element signature="e#23527#23529#0" expanded="false" />
+            <element signature="e#26524#26556#0" expanded="false" />
+            <element signature="e#27229#27285#0" expanded="false" />
+            <element signature="e#32060#32127#0" expanded="false" />
+            <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="734" column="0" selection-start-line="734" selection-start-column="0" selection-end-line="734" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2180,22 +2724,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
-            <element signature="e#3710#3796#0" expanded="false" />
-            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#setChessSet#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#3745#3831#0" expanded="false" />
+            <element signature="e#4640#4740#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
             <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#querySquare#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
             <element signature="method#movePiece#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#14680#14777#0" expanded="false" />
-            <element signature="method#playSoundClip#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16477#16533#0" expanded="false" />
-            <element signature="e#22355#22357#0" expanded="false" />
-            <element signature="e#25078#25110#0" expanded="false" />
-            <element signature="e#25783#25839#0" expanded="false" />
-            <element signature="e#29883#29950#0" expanded="false" />
+            <element signature="e#15314#15411#0" expanded="false" />
+            <element signature="e#17381#17437#0" expanded="false" />
+            <element signature="e#23527#23529#0" expanded="false" />
+            <element signature="e#26524#26556#0" expanded="false" />
+            <element signature="e#27229#27285#0" expanded="false" />
+            <element signature="e#32060#32127#0" expanded="false" />
+            <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
           </folding>
@@ -2206,51 +2748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#ChessBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#2705#2752#0" expanded="false" />
-            <element signature="method#drawBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#8812#8849#0" expanded="false" />
-            <element signature="e#9250#9367#0" expanded="false" />
-            <element signature="e#9585#9700#0" expanded="false" />
-            <element signature="method#drawWhitePawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10223#10322#0" expanded="false" />
-            <element signature="method#drawWhiteRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10789#10888#0" expanded="false" />
-            <element signature="method#drawBlackRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11354#11453#0" expanded="false" />
-            <element signature="method#drawWhiteKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11914#12013#0" expanded="false" />
-            <element signature="method#drawBlackKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#12602#12701#0" expanded="false" />
-            <element signature="method#drawWhiteBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13290#13389#0" expanded="false" />
-            <element signature="method#drawBlackBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13981#14080#0" expanded="false" />
-            <element signature="method#drawBlackQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#14668#14767#0" expanded="false" />
-            <element signature="method#drawWhiteQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#15350#15449#0" expanded="false" />
-            <element signature="method#drawWhiteKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16031#16130#0" expanded="false" />
-            <element signature="method#drawBlackKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16705#16804#0" expanded="false" />
-            <element signature="method#drawBlackPawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#17379#17478#0" expanded="false" />
-            <element signature="e#19772#19787#0" expanded="false" />
-            <element signature="e#21339#21354#0" expanded="false" />
-            <element signature="e#30332#30385#0" expanded="false" />
-            <element signature="e#38750#38799#0" expanded="false" />
-            <element signature="method#checkPieceMoving#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#invertRows#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#invertColumn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#setMovingPiece#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#drawMovingPosition#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#drawLeftArrow#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#drawRightArrow#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#drawResetButton#0;class#ChessBoard#0" expanded="false" />
-            <element signature="method#drawClearButton#0;class#ChessBoard#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2428,13 +2925,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="83" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Development/android-sdk-linux/sources/android-20/android/preference/DialogPreference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2470,23 +2960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5190381">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028355388">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2502,45 +2975,504 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13812155">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/black_king_free_staunton.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-ldpi/black_king_free_staunton.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Development/android-sdk-linux/sources/android-20/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45658264">
+          <caret line="2445" column="25" selection-start-line="2445" selection-start-column="25" selection-end-line="2445" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#RESULT_CANCELED#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#RESULT_OK#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#RESULT_FIRST_USER#0;class#Activity#0" expanded="false" />
+            <element signature="class#ManagedDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#mTemporaryPause#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#mChangingConfigurations#0;class#Activity#0" expanded="false" />
+            <element signature="class#NonConfigurationInstances#0;class#Activity#0" expanded="false" />
+            <element signature="class#35444:35593" expanded="false" />
+            <element signature="class#ManagedCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#ManagedCursor#0;class#ManagedCursor#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getIntent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setIntent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getApplication#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getParent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getWindowManager#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getWindow#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getLoaderManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLoaderManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLoaderManager#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getCurrentFocus#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#performRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#performRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#restoreManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="method#restoreManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="e#44324#44394#0" expanded="false" />
+            <element signature="method#createDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#savedDialogArgsKeyFor#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPostCreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPostCreate#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onStart#0;class#Activity#0" expanded="false" />
+            <element signature="method#onStart#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onRestart#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#onResume#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPostResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPostResume#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onNewIntent#0;class#Activity#0" expanded="false" />
+            <element signature="method#onNewIntent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#performSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#performSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#saveManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="method#saveManagedDialogs#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPause#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPause#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onUserLeaveHint#0;class#Activity#0" expanded="false" />
+            <element signature="method#onUserLeaveHint#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateThumbnail#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateDescription#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onProvideAssistData#0;class#Activity#0" expanded="false" />
+            <element signature="method#onProvideAssistData#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onStop#0;class#Activity#0" expanded="false" />
+            <element signature="method#onStop#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onDestroy#0;class#Activity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#reportFullyDrawn#0;class#Activity#0" expanded="false" />
+            <element signature="method#reportFullyDrawn#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onConfigurationChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#Activity#0" expanded="false" />
+            <element signature="e#67559#67610#0" expanded="false" />
+            <element signature="docComment;method#getChangingConfigurations#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getLastNonConfigurationInstance#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLastNonConfigurationInstance#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onRetainNonConfigurationInstance#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getLastNonConfigurationChildInstances#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLastNonConfigurationChildInstances#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onRetainNonConfigurationChildInstances#0;class#Activity#0" expanded="false" />
+            <element signature="method#retainNonConfigurationInstances#0;class#Activity#0" expanded="false" />
+            <element signature="e#74944#75009#0" expanded="false" />
+            <element signature="method#onLowMemory#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTrimMemory#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getFragmentManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#invalidateFragment#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onAttachFragment#0;class#Activity#0" expanded="false" />
+            <element signature="method#onAttachFragment#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#managedQuery#0;class#Activity#0" expanded="false" />
+            <element signature="method#managedQuery#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#managedQuery#1;class#Activity#0" expanded="false" />
+            <element signature="method#managedQuery#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#startManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#stopManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="method#stopManagingCursor#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setPersistent#0;class#Activity#0" expanded="false" />
+            <element signature="method#setPersistent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#findViewById#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="method#getActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#initActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="method#initActionBar#0;class#Activity#0" expanded="false" />
+            <element signature="e#84532#84597#0" expanded="false" />
+            <element signature="docComment;method#setContentView#0;class#Activity#0" expanded="false" />
+            <element signature="method#setContentView#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setContentView#1;class#Activity#0" expanded="false" />
+            <element signature="method#setContentView#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setContentView#2;class#Activity#0" expanded="false" />
+            <element signature="method#setContentView#2;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#addContentView#0;class#Activity#0" expanded="false" />
+            <element signature="method#addContentView#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setFinishOnTouchOutside#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_KEYS_DISABLE#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_KEYS_DIALER#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_KEYS_SHORTCUT#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_KEYS_SEARCH_LOCAL#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_KEYS_SEARCH_GLOBAL#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setDefaultKeyMode#0;class#Activity#0" expanded="false" />
+            <element signature="method#setDefaultKeyMode#0;class#Activity#0" expanded="false" />
+            <element signature="e#90472#90547#0" expanded="false" />
+            <element signature="docComment;method#onKeyDown#0;class#Activity#0" expanded="false" />
+            <element signature="method#onKeyDown#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onKeyLongPress#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onKeyUp#0;class#Activity#0" expanded="false" />
+            <element signature="method#onKeyUp#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onKeyMultiple#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onBackPressed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onKeyShortcut#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onTrackballEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onGenericMotionEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onUserInteraction#0;class#Activity#0" expanded="false" />
+            <element signature="method#onUserInteraction#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowAttributesChanged#0;class#Activity#0" expanded="false" />
+            <element signature="e#101425#101482#0" expanded="false" />
+            <element signature="method#onContentChanged#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onWindowFocusChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowFocusChanged#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onAttachedToWindow#0;class#Activity#0" expanded="false" />
+            <element signature="method#onAttachedToWindow#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onDetachedFromWindow#0;class#Activity#0" expanded="false" />
+            <element signature="method#onDetachedFromWindow#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#hasWindowFocus#0;class#Activity#0" expanded="false" />
+            <element signature="method#hasWindowFocus#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onWindowDismissed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dispatchKeyEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchKeyEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dispatchKeyShortcutEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchKeyShortcutEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dispatchTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchTouchEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dispatchTrackballEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchTrackballEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dispatchGenericMotionEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchGenericMotionEvent#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchPopulateAccessibilityEvent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreatePanelView#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreatePanelMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreatePanelMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPreparePanel#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPreparePanel#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onMenuOpened#0;class#Activity#0" expanded="false" />
+            <element signature="method#onMenuOpened#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onMenuItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="method#onMenuItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="e#111511#111571#0" expanded="false" />
+            <element signature="docComment;method#onPanelClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPanelClosed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#invalidateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#invalidateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPrepareOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onOptionsItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onNavigateUp#0;class#Activity#0" expanded="false" />
+            <element signature="method#onNavigateUp#0;class#Activity#0" expanded="false" />
+            <element signature="e#119154#119218#0" expanded="false" />
+            <element signature="e#119408#119477#0" expanded="false" />
+            <element signature="e#119923#119970#0" expanded="false" />
+            <element signature="docComment;method#onNavigateUpFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPrepareNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareNavigateUpTaskStack#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onOptionsMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onOptionsMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#openOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#closeOptionsMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#registerForContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#unregisterForContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#openContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#closeContextMenu#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onContextItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="method#onContextItemSelected#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onContextMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="method#onContextMenuClosed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateDialog#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPrepareDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onPrepareDialog#1;class#Activity#0" expanded="false" />
+            <element signature="method#onPrepareDialog#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#showDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#showDialog#1;class#Activity#0" expanded="false" />
+            <element signature="method#showDialog#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#dismissDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#dismissDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#missingDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#missingDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#removeDialog#0;class#Activity#0" expanded="false" />
+            <element signature="method#removeDialog#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onSearchRequested#0;class#Activity#0" expanded="false" />
+            <element signature="method#onSearchRequested#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startSearch#0;class#Activity#0" expanded="false" />
+            <element signature="method#startSearch#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#triggerSearch#0;class#Activity#0" expanded="false" />
+            <element signature="method#triggerSearch#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#takeKeyEvents#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#requestWindowFeature#0;class#Activity#0" expanded="false" />
+            <element signature="method#requestWindowFeature#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setFeatureDrawableResource#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableResource#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setFeatureDrawableUri#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableUri#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setFeatureDrawable#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawable#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setFeatureDrawableAlpha#0;class#Activity#0" expanded="false" />
+            <element signature="method#setFeatureDrawableAlpha#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getLayoutInflater#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getMenuInflater#0;class#Activity#0" expanded="false" />
+            <element signature="method#getMenuInflater#0;class#Activity#0" expanded="false" />
+            <element signature="method#onApplyThemeResource#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityForResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityForResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityForResult#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityForResult#1;class#Activity#0" expanded="false" />
+            <element signature="e#146145#146205#0" expanded="false" />
+            <element signature="e#147183#147247#0" expanded="false" />
+            <element signature="docComment;method#startActivityAsUser#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityAsUser#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityAsUser#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityAsUser#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSenderForResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderForResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSenderForResult#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderForResult#1;class#Activity#0" expanded="false" />
+            <element signature="e#151435#151497#0" expanded="false" />
+            <element signature="method#startIntentSenderForResultInner#0;class#Activity#0" expanded="false" />
+            <element signature="e#152893#152953#0" expanded="false" />
+            <element signature="docComment;method#startActivity#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivity#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivity#1;class#Activity#0" expanded="false" />
+            <element signature="e#155095#155157#0" expanded="false" />
+            <element signature="docComment;method#startActivities#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivities#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivities#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSender#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSender#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSender#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSender#1;class#Activity#0" expanded="false" />
+            <element signature="e#159267#159329#0" expanded="false" />
+            <element signature="docComment;method#startActivityIfNeeded#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityIfNeeded#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityIfNeeded#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityIfNeeded#1;class#Activity#0" expanded="false" />
+            <element signature="e#162797#162857#0" expanded="false" />
+            <element signature="docComment;method#startNextMatchingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#startNextMatchingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startNextMatchingActivity#1;class#Activity#0" expanded="false" />
+            <element signature="method#startNextMatchingActivity#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityFromFragment#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromFragment#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActivityFromFragment#1;class#Activity#0" expanded="false" />
+            <element signature="method#startActivityFromFragment#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSenderFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startIntentSenderFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="method#startIntentSenderFromChild#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#overridePendingTransition#0;class#Activity#0" expanded="false" />
+            <element signature="method#overridePendingTransition#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#setResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setResult#1;class#Activity#0" expanded="false" />
+            <element signature="method#setResult#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getCallingPackage#0;class#Activity#0" expanded="false" />
+            <element signature="method#getCallingPackage#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getCallingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#getCallingActivity#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setVisible#0;class#Activity#0" expanded="false" />
+            <element signature="method#setVisible#0;class#Activity#0" expanded="false" />
+            <element signature="method#makeVisible#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isFinishing#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isDestroyed#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isChangingConfigurations#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#recreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#recreate#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#finish#0;class#Activity#0" expanded="false" />
+            <element signature="method#finish#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#finishAffinity#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishAffinity#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#finishFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#finishActivity#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishActivity#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#finishActivityFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#finishActivityFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onActivityResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#createPendingResult#0;class#Activity#0" expanded="false" />
+            <element signature="method#createPendingResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="method#setRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="method#getRequestedOrientation#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getTaskId#0;class#Activity#0" expanded="false" />
+            <element signature="method#getTaskId#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isTaskRoot#0;class#Activity#0" expanded="false" />
+            <element signature="method#isTaskRoot#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#moveTaskToBack#0;class#Activity#0" expanded="false" />
+            <element signature="method#moveTaskToBack#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getLocalClassName#0;class#Activity#0" expanded="false" />
+            <element signature="method#getLocalClassName#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getComponentName#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getPreferences#0;class#Activity#0" expanded="false" />
+            <element signature="method#getPreferences#0;class#Activity#0" expanded="false" />
+            <element signature="method#ensureSearchManager#0;class#Activity#0" expanded="false" />
+            <element signature="method#getSystemService#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setTitle#0;class#Activity#0" expanded="false" />
+            <element signature="method#setTitle#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setTitle#1;class#Activity#0" expanded="false" />
+            <element signature="method#setTitleColor#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTitleChanged#0;class#Activity#0" expanded="false" />
+            <element signature="method#onChildTitleChanged#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setProgressBarVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setProgressBarIndeterminateVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarIndeterminateVisibility#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setProgressBarIndeterminate#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgressBarIndeterminate#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setProgress#0;class#Activity#0" expanded="false" />
+            <element signature="method#setProgress#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setSecondaryProgress#0;class#Activity#0" expanded="false" />
+            <element signature="method#setSecondaryProgress#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setVolumeControlStream#0;class#Activity#0" expanded="false" />
+            <element signature="method#setVolumeControlStream#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getVolumeControlStream#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#runOnUiThread#0;class#Activity#0" expanded="false" />
+            <element signature="method#runOnUiThread#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateView#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onCreateView#1;class#Activity#0" expanded="false" />
+            <element signature="method#onCreateView#1;class#Activity#0" expanded="false" />
+            <element signature="e#201515#201575#0" expanded="false" />
+            <element signature="e#202763#202826#0" expanded="false" />
+            <element signature="e#203189#203251#0" expanded="false" />
+            <element signature="e#203329#203392#0" expanded="false" />
+            <element signature="docComment;method#dump#0;class#Activity#0" expanded="false" />
+            <element signature="method#dump#0;class#Activity#0" expanded="false" />
+            <element signature="method#dumpInner#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="method#isImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#convertFromTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="method#convertFromTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#convertToTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="method#convertToTranslucent#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onTranslucentConversionComplete#0;class#Activity#0" expanded="false" />
+            <element signature="method#onTranslucentConversionComplete#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#setImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="method#setImmersive#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#startActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="method#startActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onWindowStartingActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="method#onWindowStartingActionMode#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onActionModeStarted#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActionModeStarted#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onActionModeFinished#0;class#Activity#0" expanded="false" />
+            <element signature="method#onActionModeFinished#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#shouldUpRecreateTask#0;class#Activity#0" expanded="false" />
+            <element signature="method#shouldUpRecreateTask#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#navigateUpTo#0;class#Activity#0" expanded="false" />
+            <element signature="method#navigateUpTo#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#navigateUpToFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="method#navigateUpToFromChild#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getParentActivityIntent#0;class#Activity#0" expanded="false" />
+            <element signature="method#getParentActivityIntent#0;class#Activity#0" expanded="false" />
+            <element signature="method#attach#0;class#Activity#0" expanded="false" />
+            <element signature="method#attach#1;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#getActivityToken#0;class#Activity#0" expanded="false" />
+            <element signature="method#getActivityToken#0;class#Activity#0" expanded="false" />
+            <element signature="method#performCreate#0;class#Activity#0" expanded="false" />
+            <element signature="method#performStart#0;class#Activity#0" expanded="false" />
+            <element signature="method#performRestart#0;class#Activity#0" expanded="false" />
+            <element signature="method#performResume#0;class#Activity#0" expanded="false" />
+            <element signature="method#performPause#0;class#Activity#0" expanded="false" />
+            <element signature="method#performUserLeaving#0;class#Activity#0" expanded="false" />
+            <element signature="method#performStop#0;class#Activity#0" expanded="false" />
+            <element signature="method#performDestroy#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#isResumed#0;class#Activity#0" expanded="false" />
+            <element signature="method#dispatchActivityResult#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;class#TranslucentConversionListener#0;class#Activity#0" expanded="false" />
+            <element signature="class#TranslucentConversionListener#0;class#Activity#0" expanded="false" />
+            <element signature="docComment;method#onTranslucentConversionComplete#0;class#TranslucentConversionListener#0;class#Activity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="734" column="0" selection-start-line="734" selection-start-column="0" selection-end-line="734" selection-end-column="0" />
+          <caret line="1141" column="16" selection-start-line="1141" selection-start-column="16" selection-end-line="1141" selection-end-column="16" />
           <folding>
             <element signature="method#ChessBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#2705#2752#0" expanded="false" />
+            <element signature="e#3162#3209#0" expanded="false" />
+            <element signature="method#onDraw#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#drawBoard#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#8812#8849#0" expanded="false" />
-            <element signature="e#9250#9367#0" expanded="false" />
-            <element signature="e#9585#9700#0" expanded="false" />
+            <element signature="e#9609#9646#0" expanded="false" />
+            <element signature="e#10536#10653#0" expanded="false" />
+            <element signature="e#10875#10990#0" expanded="false" />
             <element signature="method#drawWhitePawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10223#10322#0" expanded="false" />
+            <element signature="e#25013#25112#0" expanded="false" />
             <element signature="method#drawWhiteRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#10789#10888#0" expanded="false" />
+            <element signature="e#25579#25678#0" expanded="false" />
             <element signature="method#drawBlackRook#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11354#11453#0" expanded="false" />
+            <element signature="e#26144#26243#0" expanded="false" />
             <element signature="method#drawWhiteKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#11914#12013#0" expanded="false" />
+            <element signature="e#26704#26803#0" expanded="false" />
             <element signature="method#drawBlackKnight#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#12602#12701#0" expanded="false" />
+            <element signature="e#27392#27491#0" expanded="false" />
             <element signature="method#drawWhiteBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13290#13389#0" expanded="false" />
+            <element signature="e#28080#28179#0" expanded="false" />
             <element signature="method#drawBlackBishop#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#13981#14080#0" expanded="false" />
+            <element signature="e#28771#28870#0" expanded="false" />
             <element signature="method#drawBlackQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#14668#14767#0" expanded="false" />
+            <element signature="e#29458#29557#0" expanded="false" />
             <element signature="method#drawWhiteQueen#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#15350#15449#0" expanded="false" />
+            <element signature="e#30140#30239#0" expanded="false" />
             <element signature="method#drawWhiteKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16031#16130#0" expanded="false" />
+            <element signature="e#30821#30920#0" expanded="false" />
             <element signature="method#drawBlackKing#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#16705#16804#0" expanded="false" />
+            <element signature="e#31495#31594#0" expanded="false" />
             <element signature="method#drawBlackPawn#0;class#ChessBoard#0" expanded="false" />
-            <element signature="e#17379#17478#0" expanded="false" />
-            <element signature="e#19772#19787#0" expanded="false" />
-            <element signature="e#21339#21354#0" expanded="false" />
-            <element signature="e#30332#30385#0" expanded="false" />
-            <element signature="e#38750#38799#0" expanded="false" />
+            <element signature="e#32169#32268#0" expanded="false" />
+            <element signature="method#drawGameStart#0;class#ChessBoard#0" expanded="false" />
+            <element signature="e#33669#33684#0" expanded="false" />
+            <element signature="e#34990#35005#0" expanded="false" />
+            <element signature="e#36794#36809#0" expanded="false" />
+            <element signature="e#38576#38591#0" expanded="false" />
+            <element signature="method#loadDrawable#0;class#ChessBoard#0" expanded="false" />
+            <element signature="e#47264#47317#0" expanded="false" />
+            <element signature="e#56843#56892#0" expanded="false" />
             <element signature="method#checkPieceMoving#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#invertRows#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#invertColumn#0;class#ChessBoard#0" expanded="false" />
@@ -2556,36 +3488,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1162" column="42" selection-start-line="1162" selection-start-column="42" selection-end-line="1162" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.077120826">
+          <caret line="921" column="82" selection-start-line="921" selection-start-column="82" selection-end-line="921" selection-end-column="82" />
           <folding>
-            <element signature="e#3710#3796#0" expanded="false" />
-            <element signature="method#onPause#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#setChessSet#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#3745#3831#0" expanded="false" />
+            <element signature="e#4640#4740#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
             <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#querySquare#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
             <element signature="method#movePiece#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#14680#14777#0" expanded="false" />
-            <element signature="method#playSoundClip#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16477#16533#0" expanded="false" />
-            <element signature="e#22355#22357#0" expanded="false" />
-            <element signature="e#25078#25110#0" expanded="false" />
-            <element signature="e#25783#25839#0" expanded="false" />
-            <element signature="e#29883#29950#0" expanded="false" />
+            <element signature="e#15314#15411#0" expanded="false" />
+            <element signature="e#17381#17437#0" expanded="false" />
+            <element signature="e#23527#23529#0" expanded="false" />
+            <element signature="e#26524#26556#0" expanded="false" />
+            <element signature="e#27229#27285#0" expanded="false" />
+            <element signature="e#32060#32127#0" expanded="false" />
+            <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13812155">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>

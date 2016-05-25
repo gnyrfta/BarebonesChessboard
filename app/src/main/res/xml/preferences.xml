@@ -43,5 +43,9 @@
         android:entries="@array/piece_movement_entries"
         android:entryValues="@array/piece_movement_values"
         android:defaultValue="@string/piece_movement_default" />
+    <CheckBoxPreference
+        android:key="notation"
+        android:title="@string/notation"
+        android:defaultValue="false" />
           
 </PreferenceScreen>

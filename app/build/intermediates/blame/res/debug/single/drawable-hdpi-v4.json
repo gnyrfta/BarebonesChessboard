@@ -4,12 +4,16 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knightwwooden.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn_w_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn_w_eyes.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/two.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/two.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/whitemarble.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/whitemarble.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn_w_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn_w_eyes.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bb_freak.png",
@@ -24,28 +28,40 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knight_b_eyes.png"
     },
     {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/c.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/c.png"
+    },
+    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/knight_w_eyes.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knight_w_eyes.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/left_button.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/left_button.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/rook_w_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/rook_w_eyes.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/rookwwooden.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/rookwwooden.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/knightb.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knightb.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/rookwwooden.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/rookwwooden.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/rook_w_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/rook_w_eyes.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/left_button.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/left_button.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_black.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_black.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/king_b_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/king_b_eyes.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/clear_button.png",
@@ -56,16 +72,12 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wr_freak.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/king_b_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/king_b_eyes.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_black.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_black.png"
-    },
-    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/king_w_eyes.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/king_w_eyes.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/four.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/four.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishopw.png",
@@ -76,20 +88,24 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenw.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishopbwooden.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishopbwooden.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/h.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/h.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishopbwooden.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishopbwooden.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_rook_free_staunton.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_rook_free_staunton.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_knight_free_staunton.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_knight_free_staunton.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/b.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/b.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/five.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/five.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_pawn_free_staunton.png",
@@ -100,38 +116,6 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/splash_screen.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wn_freak.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wn_freak.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/br_freak.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/br_freak.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_king_free_staunton.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_king_free_staunton.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_low_res.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_low_res.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn_b_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn_b_eyes.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/kingb.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/kingb.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishopwwooden.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishopwwooden.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/reset_button.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/reset_button.png"
-    },
-    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawnwwooden.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawnwwooden.png"
     },
@@ -140,12 +124,16 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bn_freak.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queen_b_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queen_b_eyes.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/three.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/three.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishop_w_eyes.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishop_w_eyes.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/e.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/e.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawnbwooden.png",
@@ -156,12 +144,64 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenbwooden.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queenb.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenb.png"
-    },
-    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wb_freak.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wb_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_knight_free_staunton.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_knight_free_staunton.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/a.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/a.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wn_freak.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wn_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/br_freak.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/br_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_low_res.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_low_res.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_king_free_staunton.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_king_free_staunton.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawn_b_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawn_b_eyes.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishopwwooden.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishopwwooden.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/kingb.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/kingb.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/reset_button.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/reset_button.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/six.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/six.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queen_b_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queen_b_eyes.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queenb.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenb.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash_screen_pixel_chameleon.png",
@@ -172,12 +212,16 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/chessboard_icon.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bq_freak.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bq_freak.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/one.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/one.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wp_freak.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wp_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bq_freak.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bq_freak.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/rookb.png",
@@ -216,48 +260,48 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queen_w_eyes.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_queen_free_staunton.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_queen_free_staunton.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/g.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/g.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishop_b_eyes.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishop_b_eyes.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/eight.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/eight.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_queen_free_staunton.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_queen_free_staunton.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_menu_preferences_inverted.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/ic_menu_preferences_inverted.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawnb.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawnb.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/right_button.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/right_button.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bishop_b_eyes.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bishop_b_eyes.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_pawn_free_staunton.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_pawn_free_staunton.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_rook_free_staunton.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_rook_free_staunton.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/right_button.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/right_button.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/pawnb.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/pawnb.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/knightw.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knightw.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wk_freak.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wk_freak.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_rook_free_staunton.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_rook_free_staunton.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wq_freak.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wq_freak.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/kingw.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/kingw.png"
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/seven.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/seven.png"
     },
     {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/search.png",
@@ -268,6 +312,38 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/bp_freak.png"
     },
     {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_low_res_white.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_low_res_white.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_bishop_free_staunton.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_bishop_free_staunton.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queenwwooden.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenwwooden.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/knightbwooden.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knightbwooden.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wk_freak.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wk_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wq_freak.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/wq_freak.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/f.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/f.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/kingw.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/kingw.png"
+    },
+    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_king_free_staunton.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_king_free_staunton.png"
     },
@@ -276,23 +352,11 @@
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/rookbwooden.png"
     },
     {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/marble_low_res_white.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/marble_low_res_white.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/queenwwooden.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/queenwwooden.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/white_bishop_free_staunton.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/white_bishop_free_staunton.png"
-    },
-    {
-        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/knightbwooden.png",
-        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/knightbwooden.png"
-    },
-    {
         "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/black_bishop_free_staunton.png",
         "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/black_bishop_free_staunton.png"
+    },
+    {
+        "merged": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/d.png",
+        "source": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/drawable-hdpi/d.png"
     }
 ]

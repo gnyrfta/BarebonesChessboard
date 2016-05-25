@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 	public float squareWidthF;
 
 	boolean soundOn = true;
+	public boolean notationOn=false;
 	TextView tv;
 	SoundPool sp;
 	int soundId;
@@ -63,7 +64,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 	protected void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
-		Log.d("in onCreate","entering");
+		Log.d("in onCreate", "entering");
 		DisplayMetrics metrics = new DisplayMetrics();//Get the dimensions of the screen.
 		getWindowManager().getDefaultDisplay().getMetrics(metrics);       
 		width=metrics.widthPixels;
@@ -95,12 +96,19 @@ public class MainActivity extends Activity implements OnTouchListener {
 		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 		//String background = sharedPref.getString(SettingsActivity.KEY_BACKGROUND_COLOR, "");
 		//Log.d("in MainActivity.onResume(), this is background:",""+background+"");
-		String chosenSet = sharedPref.getString(SettingsActivity.KEY_CHESS_SET,"");
+		String chosenSet = sharedPref.getString(SettingsActivity.KEY_CHESS_SET, "");
 		Log.d("in MainActivity.onResume(), this is chess set:",""+chosenSet+"");
 		boolean sound = sharedPref.getBoolean(SettingsActivity.KEY_SOUND_ON, true);
+		boolean notation = sharedPref.getBoolean(SettingsActivity.KEY_NOTATION,false);
+		Log.d("notation: ",""+notation+"");
+		//this works - notation is set to the right value from the chosen preference.
 		String orientation = sharedPref.getString(SettingsActivity.KEY_ORIENTATION, "");
 		pieceMovement = sharedPref.getString(SettingsActivity.KEY_MOVEMENT, "");
 		setSound(sound);
+		setNotation(notation);
+		Log.d("notationOn",""+notationOn+"");
+		Log.d("chessboard.no",""+chessboard.notationOn+"");
+		//this works too, both booleans are set to true when notation is selected and false when deselected.
 		//setBackground(background);
 		setChessSet(chosenSet);
 		setOrientation(orientation);
@@ -159,9 +167,22 @@ public class MainActivity extends Activity implements OnTouchListener {
 		{
 			soundOn = true;
 		}
-		else if(!sound)
+		else
 		{
 			soundOn = false;
+		}
+	}
+	void setNotation(boolean notation)
+	{
+		if(notation)
+		{
+			chessboard.notationOn = true;
+			notationOn=true;
+		}
+		else
+		{
+			chessboard.notationOn = false;
+			notationOn=false;
 		}
 	}
 	void setOrientation(String orientation)   
@@ -562,15 +583,34 @@ public class MainActivity extends Activity implements OnTouchListener {
 	public boolean onTouch(View v, MotionEvent event) //is called on Touch.
 	{
 		//Figure out which square touch is on and assign it to fromSquare:
+		float temp=squareWidthF/2;
+		int margin = (int)temp/2;
 		if(width<height)
 		{
-			squareWidthF=width/8;
+			if(!notationOn)
+			{
+				squareWidthF = width / 8;
+				margin=0;
+			}
+			else
+			{
+				squareWidthF = width /9;
+			}
 		}
 		else
 		{
-			squareWidthF=height/8;
+			if(!notationOn)
+			{
+				squareWidthF = height / 8;
+				margin=0;
+			}
+			else
+			{
+				squareWidthF = height/9;
+			}
 		}
-		if(event.getY()<squareWidthF*10)
+		//Här är det!
+		if(event.getY()<margin+squareWidthF*11)
 		{
 			if(pieceMovement.equals("Drag and Drop"))
 			{
@@ -641,23 +681,39 @@ public class MainActivity extends Activity implements OnTouchListener {
 					int j;
 					if(width<height)
 					{
-						squareWidthF=width/8;
+						if(!notationOn)
+						{
+							squareWidthF = width / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = width/9;
+						}
 					}
 					else
 					{
-						squareWidthF=height/8;
+						if(!notationOn)
+						{
+							squareWidthF = height / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = height / 9;
+						}
 					}
 					i=0;
 					j=0;
 					for (i=1;i<9;i++)
 					{	
-						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						if (margin+squareWidthF*i-squareWidthF < xCo && xCo < margin+squareWidthF*i)
 						{
 							int k=i; 
 							Log.d("in OnTouch","this is column "+i);
-							for (j=1;j<11;j++)
+							for (j=1;j<12;j++)
 							{	
-								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
+								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
 								{	
 									switch(j)
 									{
@@ -677,9 +733,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 									break;
 									case 8: row="h";
 									break;
-									case 9: row="i";
+									case 10: row="i";
 									break;
-									case 10: row="j";
+									case 11: row="j";
 									break;   			
 									}
 									Log.d("in OnTouch","this is "+row+k);
@@ -838,22 +894,38 @@ public class MainActivity extends Activity implements OnTouchListener {
 					row="";
 					if(width<height)
 					{
-						squareWidthF=width/8;
+						if(!notationOn)
+						{
+							squareWidthF = width / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = width / 9;
+						}
 					}
 					else
 					{
-						squareWidthF=height/8;
+						if(!notationOn)
+						{
+							squareWidthF = height / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = height / 9;
+						}
 					}
 
 					for (i=1;i<9;i++)
 					{	
-						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						if (2*margin+squareWidthF*i-squareWidthF < xCo && xCo < 2*margin+squareWidthF*i)
 						{
 							int k=i; 
 							Log.d("in OnTouch","this is column "+i);
 							for (j=1;j<11;j++)
 							{	
-								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
+								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
 								{	
 									switch(j)
 									{
@@ -883,6 +955,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 								}
 							}
 						}
+
 					}
 					toSquare=square;
 					Log.d("obladi","fromSquare: "+fromSquare+"");
@@ -994,23 +1067,40 @@ public class MainActivity extends Activity implements OnTouchListener {
 					int j;
 					if(width<height)
 					{
-						squareWidthF=width/8;
+						if(!notationOn)
+						{
+							squareWidthF = width / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = width / 9;
+						}
 					}
 					else
 					{
-						squareWidthF=height/8;
+						if(!notationOn)
+						{
+							squareWidthF = height / 8;
+							margin=0;
+						}
+						else
+						{
+							squareWidthF = height / 9;
+						}
 					}
 					Log.d("in OnTouch","A");
 					for (i=1;i<9;i++)
 					{	
-						if (squareWidthF*i-squareWidthF < xCo && xCo < squareWidthF*i)
+						if (2*margin+squareWidthF*i-squareWidthF < xCo && xCo < 2*margin+squareWidthF*i)
 						{
 							int k=i; 
 							Log.d("in OnTouch","this is column "+i);
-							for (j=1;j<11;j++)
-							{	
-								if (squareWidthF*j-squareWidthF < yCo && yCo < squareWidthF*j)
-								{	
+							Log.d("this is margin","this is margin:"+margin+"");
+							for (j=1;j<13;j++)
+							{
+								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
+								{
 									switch(j)
 									{
 									case 1: row="a";
@@ -1029,15 +1119,31 @@ public class MainActivity extends Activity implements OnTouchListener {
 									break;
 									case 8: row="h";
 									break;
-									case 9: row="i";
+									case 9: Log.d("this is withoug pieces","this is without pieces");
 									break;
-									case 10: row="j";
-									break;   			
+									case 10: row="i";
+									break;
+									case 11: row="j";
+									break;
+									}
+									square = row+k;
+								}
+							}
+							/*for(j=9;j<11;j++)
+							{
+								if (2*margin+squareWidthF*j-squareWidthF < yCo && yCo < 2*margin+squareWidthF*j)
+								{
+									switch(j)
+									{
+										case 10: row="i";
+											break;
+										case 11: row="j";
+											break;
 									}
 									Log.d("in OnTouch","this is "+row+k);
 									square = row+k;
 								}
-							}
+							}*/
 						}
 					}
 
@@ -1112,13 +1218,22 @@ public class MainActivity extends Activity implements OnTouchListener {
 		//MotionEvent.ACTION_DOWN
 		//MotionEvent.ACTION_UP
 		int action = event.getAction() & MotionEvent.ACTION_MASK;
-
+//STUFF AND SHIT.
+		int vertical;
+		if(!notationOn)
+		{
+			vertical=10;
+		}
+		else
+		{
+			vertical=11;
+		}
 		switch(action)
 		{
 		case MotionEvent.ACTION_DOWN:
-			if((event.getX()>squareWidthF*2) && (event.getX()<squareWidthF*4))
+			if((event.getX()>margin+squareWidthF*2) && (event.getX()<margin+squareWidthF*4))
 			{
-				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
 				{
 					if(fromList.size()>0)
 					{
@@ -1139,9 +1254,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 				}
 			}
 			//Here is the place to put in the reaction to clear the board or reset the board.
-			if(event.getX()<squareWidthF*2)
+			if(event.getX()<margin+squareWidthF*2)
 			{
-				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
 				{
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
@@ -1160,9 +1275,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 					//clear board.
 				}
 			}
-			if(event.getX()>squareWidthF*6)
+			if(event.getX()>margin+squareWidthF*6)
 			{
-				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
 				{
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
@@ -1185,9 +1300,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 
 
 
-			if((event.getX()>squareWidthF*4) && (event.getX()<squareWidthF*6))
+			if((event.getX()>margin+squareWidthF*4) && (event.getX()<margin+squareWidthF*6))
 			{
-				if((event.getY()>squareWidthF*10) && (event.getY()<squareWidthF*11))
+				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
 				{
 					if(toListForward.size()>0)
 					{
