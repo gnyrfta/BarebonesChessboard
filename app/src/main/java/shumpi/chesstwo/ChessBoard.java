@@ -1011,25 +1011,34 @@ public class ChessBoard extends View {
 			Log.d("inDrawGameStart","extra pieces follow now.");
 		}
 		//Drawing white extra pieces:
-		drawWhiteKing(canvas,margin,margin+8*squareWidthI);
-		drawWhiteQueen(canvas,margin+squareWidthI,margin+8*squareWidthI);
-		drawWhiteBishop(canvas,margin+squareWidthI*2,margin+8*squareWidthI);
-		drawWhiteKnight(canvas,margin,margin+9*squareWidthI);
-		drawWhiteRook(canvas,margin+squareWidthI,margin+9*squareWidthI);
-		drawWhitePawn(canvas,margin+squareWidthI*2,margin+9*squareWidthI);
+		float tempTwo = temp*2;
+		int lowerMargin = (int)tempTwo;
+		//Adding more space around each piece so that it will be easier to hit when the space shrinks.
+		int extraMargin = (int)(width/24);
+		int k=0;
+		if(!notationOn)
+		{
+			extraMargin = 0;
+			k=1;
+			lowerMargin = 0;
+		}
+		drawWhiteKing(canvas, margin, lowerMargin + (8 * squareWidthI));
+		drawWhiteQueen(canvas, extraMargin + margin + squareWidthI,lowerMargin + (8 * squareWidthI));
+		drawWhiteBishop(canvas, 2 * extraMargin + margin + squareWidthI * 2,lowerMargin + (8 * squareWidthI));
+		drawWhiteKnight(canvas, margin, extraMargin+lowerMargin + (9 * squareWidthI));
+		drawWhiteRook(canvas, extraMargin + margin + squareWidthI, extraMargin+lowerMargin + (9 * squareWidthI));
+		drawWhitePawn(canvas, 2 * extraMargin + margin + squareWidthI * 2, extraMargin+lowerMargin+(9*squareWidthI));
 		//Drawing black extra pieces:
-		drawBlackKing(canvas,margin+squareWidthI*5,margin+8*squareWidthI);
-		drawBlackQueen(canvas,margin+squareWidthI*6,margin+8*squareWidthI);
-		drawBlackBishop(canvas,margin+squareWidthI*7,margin+8*squareWidthI);
-		drawBlackKnight(canvas,margin+squareWidthI*5,margin+9*squareWidthI);
-		drawBlackRook(canvas,margin+squareWidthI*6,margin+9*squareWidthI);
-		drawBlackPawn(canvas,margin+squareWidthI*7,margin+9*squareWidthI);
-		drawLeftArrow(canvas,margin+squareWidthI*2,margin+squareWidthI*10);
-		drawRightArrow(canvas,margin+squareWidthI*5,margin+squareWidthI*10);
-		drawClearButton(canvas,margin+2,margin+squareWidthI*10);
-		drawResetButton(canvas,margin+squareWidthI*6+2,margin+squareWidthI*10);
-		Log.d("inDrawGameStart","exiting");
-		Log.d("inDrawGameStart","Orientation: "+orientation+"");
+		drawBlackKing(canvas, margin + squareWidthI * (4+k),lowerMargin+ (8 * squareWidthI));
+		drawBlackQueen(canvas, extraMargin + margin + squareWidthI * (5+k), lowerMargin+(8 * squareWidthI));
+		drawBlackBishop(canvas, 2 * extraMargin + margin + squareWidthI * (6+k), lowerMargin+(8 * squareWidthI));
+		drawBlackKnight(canvas, margin + squareWidthI * (4+k),extraMargin+ lowerMargin+(9 * squareWidthI));
+		drawBlackRook(canvas,extraMargin+margin + squareWidthI * (5+k), extraMargin+lowerMargin+(9 * squareWidthI));
+		drawBlackPawn(canvas,2*extraMargin+ margin + squareWidthI * (6+k), extraMargin+lowerMargin+(9 * squareWidthI));
+		drawLeftArrow(canvas, margin + squareWidthI * 2, 2*extraMargin+lowerMargin+(squareWidthI * 10));
+		drawRightArrow(canvas, margin + squareWidthI * 5,2*extraMargin+ lowerMargin+(squareWidthI * 10));
+		drawClearButton(canvas, margin, 2*extraMargin+lowerMargin+(squareWidthI*10));
+		drawResetButton(canvas,margin+2+squareWidthI*6+2,2*extraMargin+lowerMargin+(squareWidthI*10));
 
 	}
 	//Could add a check here to see which orientation has been chosen. 
@@ -1458,27 +1467,32 @@ public class ChessBoard extends View {
 		//Drawing white extra pieces:
 		float tempTwo = temp*2;
 		int lowerMargin = (int)tempTwo;
+		//Adding more space around each piece so that it will be easier to hit when the space shrinks.
+		int extraMargin = (int)(width/24);
+		int k=0;
 		if(!notationOn)
 		{
+			extraMargin = 0;
+			k=1;
 			lowerMargin = 0;
 		}
-		drawWhiteKing(canvas, margin, lowerMargin+(8*squareWidthI));
-		drawWhiteQueen(canvas, margin + squareWidthI, lowerMargin+(8*squareWidthI));
-		drawWhiteBishop(canvas, margin + squareWidthI * 2, lowerMargin+(8*squareWidthI));
-		drawWhiteKnight(canvas, margin, lowerMargin+(9*squareWidthI));
-		drawWhiteRook(canvas, margin + squareWidthI, lowerMargin+(9*squareWidthI));
-		drawWhitePawn(canvas, margin + squareWidthI * 2, lowerMargin+(9*squareWidthI));
+		drawWhiteKing(canvas, margin, lowerMargin + (8 * squareWidthI));
+		drawWhiteQueen(canvas, extraMargin + margin + squareWidthI,lowerMargin + (8 * squareWidthI));
+		drawWhiteBishop(canvas, 2 * extraMargin + margin + squareWidthI * 2,lowerMargin + (8 * squareWidthI));
+		drawWhiteKnight(canvas, margin, extraMargin+lowerMargin + (9 * squareWidthI));
+		drawWhiteRook(canvas, extraMargin + margin + squareWidthI, extraMargin+lowerMargin + (9 * squareWidthI));
+		drawWhitePawn(canvas, 2 * extraMargin + margin + squareWidthI * 2, extraMargin+lowerMargin+(9*squareWidthI));
 		//Drawing black extra pieces:
-		drawBlackKing(canvas,margin+squareWidthI * 5,lowerMargin+(8 * squareWidthI));
-		drawBlackQueen(canvas, margin + squareWidthI * 6, lowerMargin+(8 * squareWidthI));
-		drawBlackBishop(canvas, margin + squareWidthI * 7, lowerMargin+(8 * squareWidthI));
-		drawBlackKnight(canvas, margin + squareWidthI * 5, lowerMargin+(9 * squareWidthI));
-		drawBlackRook(canvas, margin + squareWidthI * 6, lowerMargin+(9 * squareWidthI));
-		drawBlackPawn(canvas, margin + squareWidthI * 7, lowerMargin+(9 * squareWidthI));
-		drawLeftArrow(canvas, margin + squareWidthI * 2, lowerMargin+(squareWidthI * 10));
-		drawRightArrow(canvas, margin + squareWidthI * 5, lowerMargin+(squareWidthI * 10));
-		drawClearButton(canvas, margin + 2, lowerMargin+(squareWidthI*10));
-		drawResetButton(canvas,margin+2+squareWidthI*6+2,lowerMargin+(squareWidthI*10));
+		drawBlackKing(canvas, margin + squareWidthI * (4+k),lowerMargin+ (8 * squareWidthI));
+		drawBlackQueen(canvas, extraMargin + margin + squareWidthI * (5+k), lowerMargin+(8 * squareWidthI));
+		drawBlackBishop(canvas, 2 * extraMargin + margin + squareWidthI * (6+k), lowerMargin+(8 * squareWidthI));
+		drawBlackKnight(canvas, margin + squareWidthI * (4+k),extraMargin+ lowerMargin+(9 * squareWidthI));
+		drawBlackRook(canvas,extraMargin+margin + squareWidthI * (5+k), extraMargin+lowerMargin+(9 * squareWidthI));
+		drawBlackPawn(canvas,2*extraMargin+ margin + squareWidthI * (6+k), extraMargin+lowerMargin+(9 * squareWidthI));
+		drawLeftArrow(canvas, margin + squareWidthI * 2, 2*extraMargin+lowerMargin+(squareWidthI * 10));
+		drawRightArrow(canvas, margin + squareWidthI * 5,2*extraMargin+ lowerMargin+(squareWidthI * 10));
+		drawClearButton(canvas, margin, 2*extraMargin+lowerMargin+(squareWidthI*10));
+		drawResetButton(canvas,margin+2+squareWidthI*6+2,2*extraMargin+lowerMargin+(squareWidthI*10));
 		//there is drawn an extra piece here because the 
 		//
 		if(dragging)

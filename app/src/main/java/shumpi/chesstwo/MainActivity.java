@@ -100,7 +100,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 		Log.d("in MainActivity.onResume(), this is chess set:",""+chosenSet+"");
 		boolean sound = sharedPref.getBoolean(SettingsActivity.KEY_SOUND_ON, true);
 		boolean notation = sharedPref.getBoolean(SettingsActivity.KEY_NOTATION,false);
-		Log.d("notation: ",""+notation+"");
+		Log.d("notation: ", "" + notation + "");
 		//this works - notation is set to the right value from the chosen preference.
 		String orientation = sharedPref.getString(SettingsActivity.KEY_ORIENTATION, "");
 		pieceMovement = sharedPref.getString(SettingsActivity.KEY_MOVEMENT, "");
@@ -711,7 +711,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 						{
 							int k=i; 
 							Log.d("in OnTouch","this is column "+i);
-							for (j=1;j<12;j++)
+							for (j=1;j<13;j++)
 							{	
 								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
 								{	
@@ -733,13 +733,23 @@ public class MainActivity extends Activity implements OnTouchListener {
 									break;
 									case 8: row="h";
 									break;
-									case 10: row="i";
+									case 9: row="i";
 									break;
-									case 11: row="j";
+									case 10: row="j";
 									break;   			
 									}
 									Log.d("in OnTouch","this is "+row+k);
 									square = row+k;
+									if(yCo>squareWidthF*8)
+									{
+										if(notationOn)
+										{
+											k=findCorrectColumn(xCo);
+											row=findCorrectRow(yCo);
+											square=row+k;
+											Log.d("ran findCorrectColumn","square: "+square+"");
+										}
+									}
 									Log.d("obladi","this is square");
 								}
 							}
@@ -812,7 +822,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 						}
 						if(thisIsOnSquare.equals("white king"))
 						{
-							//chessboard.blackRook.setVisible(false, false);
+							//chessboard.blackRook.setVisible(false, faevent.getY()>extraMargin+margin+squareWidthF*verticallse);
 							chessboard.setMovingPiece("white king",(int)event.getX(),(int)event.getY());
 							chessboard.setMovingFromSquare(square);
 						}
@@ -856,7 +866,6 @@ public class MainActivity extends Activity implements OnTouchListener {
 						if(event.getY()<width)
 						{
 							yCo = width-event.getX();
-							xCo = event.getY();
 						}
 						else
 						{
@@ -1092,7 +1101,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 					Log.d("in OnTouch","A");
 					for (i=1;i<9;i++)
 					{	
-						if (2*margin+squareWidthF*i-squareWidthF < xCo && xCo < 2*margin+squareWidthF*i)
+						if (margin+squareWidthF*i-squareWidthF < xCo && xCo < margin+squareWidthF*i)
 						{
 							int k=i; 
 							Log.d("in OnTouch","this is column "+i);
@@ -1119,14 +1128,22 @@ public class MainActivity extends Activity implements OnTouchListener {
 									break;
 									case 8: row="h";
 									break;
-									case 9: Log.d("this is withoug pieces","this is without pieces");
+									case 9: row="i";
 									break;
-									case 10: row="i";
-									break;
-									case 11: row="j";
+									case 10: row="j";
 									break;
 									}
 									square = row+k;
+									if(yCo>squareWidthF*8)
+									{
+										if(notationOn)
+										{
+											k=findCorrectColumn(xCo);
+											row=findCorrectRow(yCo);
+											square=row+k;
+											Log.d("ran findCorrectColumn","square: "+square+"");
+										}
+									}
 								}
 							}
 							/*for(j=9;j<11;j++)
@@ -1134,7 +1151,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 								if (2*margin+squareWidthF*j-squareWidthF < yCo && yCo < 2*margin+squareWidthF*j)
 								{
 									switch(j)
-									{
+									{event.getY()>extraMargin+margin+squareWidthF*vertical
 										case 10: row="i";
 											break;
 										case 11: row="j";
@@ -1220,6 +1237,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 		int action = event.getAction() & MotionEvent.ACTION_MASK;
 //STUFF AND SHIT.
 		int vertical;
+		int extraMargin=0;
 		if(!notationOn)
 		{
 			vertical=10;
@@ -1227,13 +1245,14 @@ public class MainActivity extends Activity implements OnTouchListener {
 		else
 		{
 			vertical=11;
+			extraMargin = (int)(width/24);
 		}
 		switch(action)
 		{
 		case MotionEvent.ACTION_DOWN:
 			if((event.getX()>margin+squareWidthF*2) && (event.getX()<margin+squareWidthF*4))
 			{
-				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
+				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
 					if(fromList.size()>0)
 					{
@@ -1256,7 +1275,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 			//Here is the place to put in the reaction to clear the board or reset the board.
 			if(event.getX()<margin+squareWidthF*2)
 			{
-				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
+				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
@@ -1277,7 +1296,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 			}
 			if(event.getX()>margin+squareWidthF*6)
 			{
-				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
+				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
@@ -1302,7 +1321,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 
 			if((event.getX()>margin+squareWidthF*4) && (event.getX()<margin+squareWidthF*6))
 			{
-				if((event.getY()>margin+squareWidthF*vertical) && (event.getY()<margin+squareWidthF*(vertical+1)))
+				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
 					if(toListForward.size()>0)
 					{
@@ -1367,5 +1386,55 @@ public void clearLists()
 	pieceMovedListForward.clear();
 	pieceCapturedListForward.clear();
 }
+	public int findCorrectColumn(float x)
+	{
+		int extraMargin=(int)(width/24);
+		float temp = squareWidthF/2;
+		int margin= (int)temp;
+		int column=0;
+		if(x<extraMargin+margin+squareWidthF)
+		{
+			column = 1;
+		}
+		else if(x>extraMargin+margin+squareWidthF && x<2*extraMargin+margin+2*squareWidthF)
+		{
+			column = 2;
+		}
+		else if(x>2*extraMargin+margin+2*squareWidthF && x<3*extraMargin+margin+3*squareWidthF)
+		{
+			column = 3;
+		}
+		else if(x>3*extraMargin+margin+3*squareWidthF && x<extraMargin+margin+squareWidthF*5)
+		{
+			column=6;
+		}
+		else if(x>extraMargin+margin+squareWidthF*5 && x<2*extraMargin+margin+squareWidthF*6)
+		{
+			column=7;
+		}
+		else if(x>2*extraMargin+margin+squareWidthF*6 && x<3*extraMargin+margin+squareWidthF*7)
+		{
+			column=8;
+		}
+		return column;
+	}
+	public String findCorrectRow(float y)
+	{
+		int extraMargin=(int)(width/24);
+		float temp = squareWidthF/2;
+		int margin= (int)temp;
+		float tempTwo = temp*2;
+		int lowerMargin = (int)tempTwo;
+		String row = "";
+		if(y>lowerMargin+squareWidthF*8 && y<lowerMargin+extraMargin+squareWidthF*9)
+		{
+			row="i";
+		}
+		else if(y>lowerMargin+extraMargin+squareWidthF*9 && y<2*extraMargin + lowerMargin + squareWidthF*10)
+		{
+			row="j";
+		}
+		return row;
+	}
 
 }
