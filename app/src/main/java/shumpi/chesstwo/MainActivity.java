@@ -865,6 +865,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 					{
 						if(event.getY()<width)
 						{
+							xCo=event.getY();
 							yCo = width-event.getX();
 						}
 						else

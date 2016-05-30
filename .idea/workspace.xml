@@ -15,46 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="804533ac-2f4c-42c4-a7c8-08029126831d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/ChessBoard.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/ChessBoard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/shumpi/chesstwo/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/clear_button.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/clear_button.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/clear_button.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/clear_button.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/clear_button.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/clear_button.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/clear_button.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/clear_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/clear_button.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/clear_button.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b9038bc986a88a7090553c1cd597ed17ee63fdd4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b9038bc986a88a7090553c1cd597ed17ee63fdd4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java" afterPath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/shumpi/chesstwo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/shumpi/chesstwo/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChessboardThree.iws" />
@@ -84,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChessBoard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChessBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26709402">
-              <caret line="1049" column="69" selection-start-line="1049" selection-start-column="69" selection-end-line="1049" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="932" column="49" selection-start-line="932" selection-start-column="49" selection-end-line="932" selection-end-column="49" />
               <folding>
                 <element signature="e#3162#3209#0" expanded="false" />
                 <element signature="method#onDraw#0;class#ChessBoard#0" expanded="false" />
@@ -136,6 +109,33 @@
                 <element signature="method#drawRightArrow#0;class#ChessBoard#0" expanded="false" />
                 <element signature="method#drawResetButton#0;class#ChessBoard#0" expanded="false" />
                 <element signature="method#drawClearButton#0;class#ChessBoard#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24485126">
+              <caret line="867" column="45" selection-start-line="867" selection-start-column="45" selection-end-line="867" selection-end-column="45" />
+              <folding>
+                <element signature="e#3745#3831#0" expanded="false" />
+                <element signature="e#4645#4745#0" expanded="false" />
+                <element signature="e#6315#6316#0" expanded="true" />
+                <element signature="e#6356#6357#0" expanded="true" />
+                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
+                <element signature="e#15319#15416#0" expanded="false" />
+                <element signature="e#17386#17442#0" expanded="false" />
+                <element signature="e#23849#23851#0" expanded="false" />
+                <element signature="e#26844#26876#0" expanded="false" />
+                <element signature="e#27549#27605#0" expanded="false" />
+                <element signature="e#32602#32669#0" expanded="false" />
+                <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#findCorrectColumn#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#findCorrectRow#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1725,7 +1725,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1796,6 +1795,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1903,6 +1903,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChessboardThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chesstwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2122,7 +2152,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2142,7 +2172,7 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28844622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.4876494" order="2" side_tool="false" content_ui="tabs" />
@@ -2242,14 +2272,14 @@
             <element signature="e#4645#4745#0" expanded="false" />
             <element signature="e#6315#6316#0" expanded="true" />
             <element signature="e#6356#6357#0" expanded="true" />
-            <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
             <element signature="e#15319#15416#0" expanded="false" />
             <element signature="e#17386#17442#0" expanded="false" />
             <element signature="e#23849#23851#0" expanded="false" />
-            <element signature="e#26819#26851#0" expanded="false" />
-            <element signature="e#27524#27580#0" expanded="false" />
-            <element signature="e#32577#32644#0" expanded="false" />
+            <element signature="e#26844#26876#0" expanded="false" />
+            <element signature="e#27549#27605#0" expanded="false" />
+            <element signature="e#32602#32669#0" expanded="false" />
             <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
             <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
             <element signature="method#findCorrectColumn#0;class#MainActivity#0" expanded="false" />
@@ -2300,14 +2330,14 @@
             <element signature="e#4645#4745#0" expanded="false" />
             <element signature="e#6315#6316#0" expanded="true" />
             <element signature="e#6356#6357#0" expanded="true" />
-            <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
             <element signature="e#15319#15416#0" expanded="false" />
             <element signature="e#17386#17442#0" expanded="false" />
             <element signature="e#23849#23851#0" expanded="false" />
-            <element signature="e#26819#26851#0" expanded="false" />
-            <element signature="e#27524#27580#0" expanded="false" />
-            <element signature="e#32577#32644#0" expanded="false" />
+            <element signature="e#26844#26876#0" expanded="false" />
+            <element signature="e#27549#27605#0" expanded="false" />
+            <element signature="e#32602#32669#0" expanded="false" />
             <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
             <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
             <element signature="method#findCorrectColumn#0;class#MainActivity#0" expanded="false" />
@@ -2341,7 +2371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2551,7 +2580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13812155">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2593,35 +2621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-72.21311">
-          <caret line="1122" column="52" selection-start-line="1122" selection-start-column="52" selection-end-line="1122" selection-end-column="52" />
-          <folding>
-            <element signature="e#3745#3831#0" expanded="false" />
-            <element signature="e#4645#4745#0" expanded="false" />
-            <element signature="e#6315#6316#0" expanded="true" />
-            <element signature="e#6356#6357#0" expanded="true" />
-            <element signature="method#invokeSettings#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearBoard#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15319#15416#0" expanded="false" />
-            <element signature="e#17386#17442#0" expanded="false" />
-            <element signature="e#23849#23851#0" expanded="false" />
-            <element signature="e#26819#26851#0" expanded="false" />
-            <element signature="e#27524#27580#0" expanded="false" />
-            <element signature="e#32577#32644#0" expanded="false" />
-            <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#findCorrectColumn#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#findCorrectRow#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26709402">
-          <caret line="1049" column="69" selection-start-line="1049" selection-start-column="69" selection-end-line="1049" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="932" column="49" selection-start-line="932" selection-start-column="49" selection-end-line="932" selection-end-column="49" />
           <folding>
             <element signature="e#3162#3209#0" expanded="false" />
             <element signature="method#onDraw#0;class#ChessBoard#0" expanded="false" />
@@ -2669,6 +2672,31 @@
             <element signature="method#drawRightArrow#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#drawResetButton#0;class#ChessBoard#0" expanded="false" />
             <element signature="method#drawClearButton#0;class#ChessBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/shumpi/chesstwo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24485126">
+          <caret line="867" column="45" selection-start-line="867" selection-start-column="45" selection-end-line="867" selection-end-column="45" />
+          <folding>
+            <element signature="e#3745#3831#0" expanded="false" />
+            <element signature="e#4645#4745#0" expanded="false" />
+            <element signature="e#6315#6316#0" expanded="true" />
+            <element signature="e#6356#6357#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#gameStart#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#15319#15416#0" expanded="false" />
+            <element signature="e#17386#17442#0" expanded="false" />
+            <element signature="e#23849#23851#0" expanded="false" />
+            <element signature="e#26844#26876#0" expanded="false" />
+            <element signature="e#27549#27605#0" expanded="false" />
+            <element signature="e#32602#32669#0" expanded="false" />
+            <element signature="method#dragAndDropMove#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#clearLists#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#findCorrectColumn#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#findCorrectRow#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
