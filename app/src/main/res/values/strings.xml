@@ -63,6 +63,13 @@
     <string name="notation">Algebraic Notation</string>
     <string name="notation_default">Off</string>
     <string name="about">About app.</string>
-    <string name="about_message">App made by David Jacobsson.\nLorem Ipsum Dolor</string>
-
+    <string name="about_message">\nChess piece artists: \nEyes and Freak - Maurizio Monge. \nFree Staunton - Artist unknown.\nApp by David Jacobsson, gnyrfta@gmail.com</string>
+    <string name="clear">Clear</string>
+    <string name="reset">Reset</string>
+    <string name="clear_message">Clear board and movement history?</string>
+    <string name="reset_message">Reset board and movement history?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="closing_activity">Closing Activity</string>
+    <string name="closing_query">Are you sure you want to exit Chessboard?</string>
 </resources>

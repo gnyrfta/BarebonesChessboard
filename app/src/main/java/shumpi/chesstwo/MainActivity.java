@@ -548,6 +548,8 @@ public class MainActivity extends Activity implements OnTouchListener {
 					}
 				}
 				Log.d("in movePiece","adding to lists");
+				Log.d("in movePiece ey","from: "+from);
+				Log.d("in movePiece ey","to: "+to);
 				fromList.add(from);
 				toList.add(to);
 				pieceMovedList.add(thisIsThePieceToBeMoved);
@@ -556,6 +558,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 			else if(movingBack)
 			{
 				Log.d("in movePiece","in movingBack-block");
+				Log.d("in movePiece, from: "+from,"this is to: "+to);
 				fromListForward.add(from);
 				toListForward.add(to);
 				pieceMovedListForward.add(thisIsThePieceToBeMoved);
@@ -614,16 +617,17 @@ public class MainActivity extends Activity implements OnTouchListener {
 		{
 			if(pieceMovement.equals("Drag and Drop"))
 			{
+				boolean oneOfTheButtons=false;
 				float xCo=0;
 				float yCo=0;
 				switch(event.getAction() & MotionEvent.ACTION_MASK)
-				{	
-				case MotionEvent.ACTION_DOWN: 
+				{
+				case MotionEvent.ACTION_DOWN:
 
-					//Assigning the coordinates using the 'internal' coord. 
+					//Assigning the coordinates using the 'internal' coord.
 					//system where A1 is at 0,0.
 					if(chessboard.orientation.equals("white_left"))
-					{	
+					{
 						if(event.getY()<width)
 						{
 							xCo = event.getX();
@@ -706,15 +710,15 @@ public class MainActivity extends Activity implements OnTouchListener {
 					i=0;
 					j=0;
 					for (i=1;i<9;i++)
-					{	
+					{
 						if (margin+squareWidthF*i-squareWidthF < xCo && xCo < margin+squareWidthF*i)
 						{
-							int k=i; 
+							int k=i;
 							Log.d("in OnTouch","this is column "+i);
 							for (j=1;j<13;j++)
-							{	
+							{
 								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
-								{	
+								{
 									switch(j)
 									{
 									case 1: row="a";
@@ -736,10 +740,17 @@ public class MainActivity extends Activity implements OnTouchListener {
 									case 9: row="i";
 									break;
 									case 10: row="j";
-									break;   			
+									break;
+									default: row="";
+									break;
 									}
 									Log.d("in OnTouch","this is "+row+k);
 									square = row+k;
+									if(row.equals(""))
+									{
+									//	Log.d("oneOfTheButtons","oneOfTheButtons");
+										oneOfTheButtons=true;
+									}
 									if(yCo>squareWidthF*8)
 									{
 										if(notationOn)
@@ -837,7 +848,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 					//hm.put(square, "empty");
 					break;
 
-				case MotionEvent.ACTION_UP: 
+				case MotionEvent.ACTION_UP:
 					chessboard.up=true;
 					chessboard.setDragging(false);
 					chessboard.dragging=false;
@@ -846,10 +857,10 @@ public class MainActivity extends Activity implements OnTouchListener {
 					chessboard.setMovingFromSquare("");
 					Log.d("onTouch","ACTION_UP has been called");
 					//
-					//Assigning the coordinates using the 'internal' coord. 
+					//Assigning the coordinates using the 'internal' coord.
 					//system where A1 is at 0,0.
 					if(chessboard.orientation.equals("white_left"))
-					{	
+					{
 						if(event.getY()<width)
 						{
 							xCo = event.getX();
@@ -928,15 +939,15 @@ public class MainActivity extends Activity implements OnTouchListener {
 					}
 
 					for (i=1;i<9;i++)
-					{	
+					{
 						if (2*margin+squareWidthF*i-squareWidthF < xCo && xCo < 2*margin+squareWidthF*i)
 						{
-							int k=i; 
+							int k=i;
 							Log.d("in OnTouch","this is column "+i);
 							for (j=1;j<11;j++)
-							{	
+							{
 								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
-								{	
+								{
 									switch(j)
 									{
 									case 1: row="a";
@@ -958,8 +969,11 @@ public class MainActivity extends Activity implements OnTouchListener {
 									case 9: row="i";
 									break;
 									case 10: row="j";
-									break;   			
+									break;
+									default: row="";
+									break;
 									}
+
 									Log.d("in OnTouch","this is "+row+k);
 									square = row+k;
 								}
@@ -982,8 +996,20 @@ public class MainActivity extends Activity implements OnTouchListener {
 						//chessboard.setMovingFromSquare("");
 						//thisIsThePieceToBeMoved="";
 					}*/
-
+					if(row.equals(""))
+					{
+						Log.d("oneOfTheButtons","oneOfTheButtons");
+						oneOfTheButtons=true;
+					}
+					if(!oneOfTheButtons)
+					{
+						Log.d("calling movePiece","calling movePiece");
 						movePiece(fromSquare, toSquare, false, false);
+					}
+					else
+					{
+						Log.d("not calling movePiece","not calling movePiece");
+					}
 						//hm.put(toSquare,"black rook");
 						//	fromSquare="";
 						chessboard.invalidate();
@@ -994,14 +1020,14 @@ public class MainActivity extends Activity implements OnTouchListener {
 					//
 
 				case MotionEvent.ACTION_MOVE: //dO STUFF.
-					if(thisIsOnSquare.equals("black rook"))
+					/*if(thisIsOnSquare.equals("black rook"))
 					{
 						chessboard.setDragging(true);
 						chessboard.setMovingPiece("black rook",(int)event.getX(),(int)event.getY());
 						chessboard.invalidate();
 						movingPiece="black rook";
-					}
-					break;
+					}*///etc uncomment and add pieces if they are to be shown on drag.
+					//break;
 
 				}
 			}
@@ -1009,17 +1035,15 @@ public class MainActivity extends Activity implements OnTouchListener {
 			//
 			else if(pieceMovement.equals("Two Touch"))
 			{
-
-
 				Log.d("in onTouch","entering");
 				if (event.getAction() == MotionEvent.ACTION_DOWN)
 				{
 					float xCo=0;
 					float yCo=0;
-					//Assigning the coordinates using the 'internal' coord. 
+					//Assigning the coordinates using the 'internal' coord.
 					//system where A1 is at 0,0.
 					if(chessboard.orientation.equals("white_left"))
-					{	
+					{
 						if(event.getY()<width)
 						{
 							xCo = event.getX();
@@ -1101,10 +1125,10 @@ public class MainActivity extends Activity implements OnTouchListener {
 					}
 					Log.d("in OnTouch","A");
 					for (i=1;i<9;i++)
-					{	
+					{
 						if (margin+squareWidthF*i-squareWidthF < xCo && xCo < margin+squareWidthF*i)
 						{
-							int k=i; 
+							int k=i;
 							Log.d("in OnTouch","this is column "+i);
 							Log.d("this is margin","this is margin:"+margin+"");
 							for (j=1;j<13;j++)
@@ -1175,28 +1199,28 @@ public class MainActivity extends Activity implements OnTouchListener {
 						{
 							/*do nothing*/
 						}
-						else 
-						{ 
+						else
+						{
 							toSquare=square;
 							thisIsThePieceToBeMoved=querySquare(fromSquare);
 							if(yCo<squareWidthF*10)
 							{
-								movePiece(fromSquare,toSquare,false,false);					
+								movePiece(fromSquare,toSquare,false,false);
 								chessboard.invalidate();
 							}
 						}
 						Log.d("in OnTouch","D");
-					} 
+					}
 
 					else
 					{
 						if(fromSquare.equals(""))
-						{	
+						{
 							fromSquare=square;
 							Log.d("in OnTouch","fromSquare: "+square);
 						}
 						else
-						{ 
+						{
 							toSquare=square;
 							/*        		fromSquare="e2";
         		toSquare="e4";*/
@@ -1204,14 +1228,14 @@ public class MainActivity extends Activity implements OnTouchListener {
 							thisIsThePieceToBeMoved=querySquare(fromSquare);
 							if(yCo<squareWidthF*10)
 							{
-								movePiece(fromSquare,toSquare,false,false);					
+								movePiece(fromSquare,toSquare,false,false);
 								chessboard.invalidate();
 							}
-						}	
+						}
 					}
 					//Does this do anything?:
 					boolean moveItConditionOne = !(fromSquare.equals(""))&&!(fromSquare.equals("empty"));
-					boolean moveItConditionTwo = !(toSquare.equals(""))&&!(fromSquare.equals("empty"));     
+					boolean moveItConditionTwo = !(toSquare.equals(""))&&!(fromSquare.equals("empty"));
 					System.out.println("c1"+moveItConditionOne);
 					System.out.println("c2"+moveItConditionTwo);
 					if(moveItConditionTwo&&moveItConditionOne)
@@ -1219,7 +1243,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 						Log.d("in OnTouch","E");
 						if(yCo<squareWidthF*10)
 						{
-							movePiece(fromSquare,toSquare,false,false);					
+							movePiece(fromSquare,toSquare,false,false);
 						}
 						Log.d("in OnTouch","F");
 						chessboard.invalidate();
@@ -1232,7 +1256,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 			}
 		}
 		//From here it does not matter if it is drag and drop or two touch.
-		//Check if any of the left or right arrows have been tapped: 
+		//Check if any of the left or right arrows have been tapped:
 		//MotionEvent.ACTION_DOWN
 		//MotionEvent.ACTION_UP
 		int action = event.getAction() & MotionEvent.ACTION_MASK;
@@ -1274,15 +1298,22 @@ public class MainActivity extends Activity implements OnTouchListener {
 				}
 			}
 			//Here is the place to put in the reaction to clear the board or reset the board.
+			String clearTitle = getResources().getString(R.string.clear);
+			String resetTitle = getResources().getString(R.string.reset);
+			String clearMessage = getResources().getString(R.string.clear_message);
+			String resetMessage = getResources().getString(R.string.reset_message);
+			String yes = getResources().getString(R.string.yes);
+			String no = getResources().getString(R.string.no);
 			if(event.getX()<margin+squareWidthF*2)
 			{
 				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
+
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
-							.setTitle("Closing Activity")
-							.setMessage("Clear board and movement history?")
-							.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+							.setTitle(clearTitle)
+							.setMessage(clearMessage)
+							.setPositiveButton(yes, new DialogInterface.OnClickListener()
 							{
 								@Override
 								public void onClick(DialogInterface dialog, int which) {
@@ -1290,7 +1321,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 								}
 
 							})
-							.setNegativeButton("No", null)
+							.setNegativeButton(no, null)
 							.show();
 					//clear board.
 				}
@@ -1301,9 +1332,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 				{
 					new AlertDialog.Builder(this)
 							.setIcon(android.R.drawable.ic_dialog_alert)
-							.setTitle("Closing Activity")
-							.setMessage("Reset board and movement history?")
-							.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+							.setTitle(resetTitle)
+							.setMessage(resetMessage)
+							.setPositiveButton(yes, new DialogInterface.OnClickListener()
 							{
 								@Override
 								public void onClick(DialogInterface dialog, int which) {
@@ -1311,28 +1342,28 @@ public class MainActivity extends Activity implements OnTouchListener {
 								}
 
 							})
-							.setNegativeButton("No", null)
+							.setNegativeButton(no, null)
 							.show();
 					//reset board.
 
 				}
 			}
 
-
-
 			if((event.getX()>margin+squareWidthF*4) && (event.getX()<margin+squareWidthF*6))
 			{
 				if((event.getY()>extraMargin+margin+squareWidthF*vertical) && (event.getY()<extraMargin+margin+squareWidthF*(vertical+1)))
 				{
+					Log.d("hit right arrow","hit right arrow");
 					if(toListForward.size()>0)
 					{
 						Log.d("In MainActivity.movePiece()","right arrow tapped.");
 						thisIsThePieceToBeMoved=pieceMovedListForward.get(pieceMovedListForward.size()-1);
+						Log.d("toListForward element: "+toListForward.get(toListForward.size()-1),"ok dok");
 						movePiece(toListForward.get(toListForward.size()-1),fromListForward.get(fromListForward.size()-1),false,true);
 						hm.put(toListForward.get(toListForward.size()-1),pieceCapturedListForward.get(pieceCapturedListForward.size()-1));
 						pieceMovedListForward.remove(pieceMovedListForward.size()-1);
 						toListForward.remove(toListForward.size()-1);
-						fromListForward.remove(fromListForward.size()-1);	
+						fromListForward.remove(fromListForward.size()-1);
 						pieceCapturedListForward.remove(pieceCapturedListForward.size()-1);
 						chessboard.invalidate();
 					}
@@ -1360,11 +1391,16 @@ public class MainActivity extends Activity implements OnTouchListener {
 	}
 	@Override
 	public void onBackPressed() {
+		String exit = getResources().getString(R.string.closing_activity);
+		String exitQuery = getResources().getString(R.string.closing_query);
+		String yes = getResources().getString(R.string.yes);
+		String no = getResources().getString(R.string.no);
+
 		new AlertDialog.Builder(this)
 		.setIcon(android.R.drawable.ic_dialog_alert)
-		.setTitle("Closing Activity")
-		.setMessage("Are you sure you want to exit Chessboard?")
-		.setPositiveButton("Yes", new DialogInterface.OnClickListener()
+		.setTitle(exit)
+		.setMessage(exitQuery)
+		.setPositiveButton(yes, new DialogInterface.OnClickListener()
 		{
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -1372,7 +1408,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 			}
 
 		})
-		.setNegativeButton("No", null)
+		.setNegativeButton(no, null)
 		.show();
 	}
 public void clearLists()

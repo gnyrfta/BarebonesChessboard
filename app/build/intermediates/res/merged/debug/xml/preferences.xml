@@ -30,9 +30,9 @@
         android:defaultValue="@string/orientation_default" />
 		<shumpi.chesstwo.MyDialogPreference
 		    android:key="info"
-		    android:title="About"
-		    android:dialogTitle="About"
-		    android:dialogMessage="\nChess piece artists: \nEyes - Maurizio Monge. \nFree Staunton - Artist unknown.\nApp by David Jacobsson, gnyrfta@gmail.com"
+		    android:title="@string/about"
+		    android:dialogTitle="@string/about"
+		    android:dialogMessage="@string/about_message"
 		    android:positiveButtonText="Ok"
 		    android:negativeButtonText=""
 		    		    />

@@ -1,0 +1,589 @@
+[
+    {
+        "outputFile": "/home/david/AndroidStudioProjects/ChessboardThree/app/build/intermediates/res/merged/release/values-it/values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1124,
+                        "endLine": 35,
+                        "endColumn": 19,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1307,
+                        "endLine": 41,
+                        "endColumn": 19,
+                        "endOffset": 1483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endLine": 19,
+                    "endColumn": 19,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1488,
+                        "endLine": 47,
+                        "endColumn": 19,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endLine": 25,
+                    "endColumn": 19,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endLine": 53,
+                        "endColumn": 19,
+                        "endOffset": 1890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endLine": 29,
+                    "endColumn": 19,
+                    "endOffset": 959
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 1895,
+                        "endLine": 57,
+                        "endColumn": 19,
+                        "endOffset": 2028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 964,
+                    "endLine": 33,
+                    "endColumn": 19,
+                    "endOffset": 1093
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endLine": 61,
+                        "endColumn": 19,
+                        "endOffset": 2162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1098,
+                    "endColumn": 46,
+                    "endOffset": 1140
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2273,
+                        "endColumn": 46,
+                        "endOffset": 2315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1145,
+                    "endColumn": 208,
+                    "endOffset": 1349
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2320,
+                        "endColumn": 208,
+                        "endOffset": 2524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1354,
+                    "endColumn": 58,
+                    "endOffset": 1408
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endColumn": 58,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1413,
+                    "endColumn": 48,
+                    "endOffset": 1457
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 48,
+                        "endOffset": 211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1462,
+                    "endColumn": 49,
+                    "endOffset": 1507
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 49,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1512,
+                    "endColumn": 47,
+                    "endOffset": 1555
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 47,
+                        "endOffset": 60
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1560,
+                    "endColumn": 52,
+                    "endOffset": 1608
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 413,
+                        "endColumn": 52,
+                        "endOffset": 461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1613,
+                    "endColumn": 54,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endColumn": 54,
+                        "endOffset": 516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 40,
+                    "endOffset": 1704
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2530,
+                        "endColumn": 40,
+                        "endOffset": 2566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1709,
+                    "endColumn": 100,
+                    "endOffset": 1805
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2614,
+                        "endColumn": 100,
+                        "endOffset": 2710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 1810,
+                    "endColumn": 37,
+                    "endOffset": 1843
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 2887,
+                        "endColumn": 45,
+                        "endOffset": 2928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 1848,
+                    "endColumn": 85,
+                    "endOffset": 1929
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 2933,
+                        "endColumn": 85,
+                        "endOffset": 3014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1934,
+                    "endColumn": 51,
+                    "endOffset": 1981
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 65,
+                        "endColumn": 51,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1986,
+                    "endColumn": 33,
+                    "endOffset": 2015
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 2853,
+                        "endColumn": 33,
+                        "endOffset": 2882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2020,
+                    "endColumn": 56,
+                    "endOffset": 2072
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2167,
+                        "endColumn": 56,
+                        "endOffset": 2219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2077,
+                    "endColumn": 48,
+                    "endOffset": 2121
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2224,
+                        "endColumn": 48,
+                        "endOffset": 2268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2126,
+                    "endColumn": 52,
+                    "endOffset": 2174
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 521,
+                        "endColumn": 52,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2179,
+                    "endColumn": 58,
+                    "endOffset": 2233
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 574,
+                        "endColumn": 58,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2238,
+                    "endColumn": 62,
+                    "endOffset": 2296
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 62,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2301,
+                    "endColumn": 60,
+                    "endOffset": 2357
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 60,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2362,
+                    "endColumn": 42,
+                    "endOffset": 2400
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2571,
+                        "endColumn": 42,
+                        "endOffset": 2609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2405,
+                    "endColumn": 102,
+                    "endOffset": 2503
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2715,
+                        "endColumn": 102,
+                        "endOffset": 2813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2508,
+                    "endColumn": 46,
+                    "endOffset": 2550
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 46,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2555,
+                    "endColumn": 34,
+                    "endOffset": 2585
+                },
+                "from": {
+                    "file": "/home/david/AndroidStudioProjects/ChessboardThree/app/src/main/res/values-it/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 2818,
+                        "endColumn": 34,
+                        "endOffset": 2848
+                    }
+                }
+            }
+        ]
+    }
+]

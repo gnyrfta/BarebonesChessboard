@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  \nWood - based on Akiros chess set by Alessandro 'AkiRoss' Re.-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+      
+    <CheckBoxPreference
+        android:key="sound"
+        android:title="@string/sound"
+        android:defaultValue="true" />
+    <!--  
+    <ListPreference
+        android:key="background_color"
+        android:title="@string/background_color"
+        android:dialogTitle="@string/background_color"
+        android:entries="@array/background_color_entries"
+        android:entryValues="@array/background_color_values"
+        android:defaultValue="@string/background_color_default" />-->
+        <ListPreference
+        android:key="chess_set"
+        android:title="@string/chess_set"
+        android:dialogTitle="@string/chess_set"
+        android:entries="@array/chess_set_entries"
+        android:entryValues="@array/chess_set_values"
+        android:defaultValue="@string/chess_set_default" />
+                <ListPreference
+        android:key="orientation"
+        android:title="@string/orientation"
+        android:dialogTitle="@string/orientation"
+        android:entries="@array/orientation_entries"
+        android:entryValues="@array/orientation_values"
+        android:defaultValue="@string/orientation_default" />
+		<shumpi.chesstwo.MyDialogPreference
+		    android:key="info"
+		    android:title="@string/about"
+		    android:dialogTitle="@string/about"
+		    android:dialogMessage="@string/about_message"
+		    android:positiveButtonText="Ok"
+		    android:negativeButtonText=""
+		    		    />
+		            <ListPreference
+        android:key="piece_movement"
+        android:title="@string/piece_movement"
+        android:dialogTitle="@string/piece_movement"
+        android:entries="@array/piece_movement_entries"
+        android:entryValues="@array/piece_movement_values"
+        android:defaultValue="@string/piece_movement_default" />
+    <CheckBoxPreference
+        android:key="notation"
+        android:title="@string/notation"
+        android:defaultValue="false" />
+          
+</PreferenceScreen>

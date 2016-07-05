@@ -10,21 +10,23 @@ package shumpi.chesstwo;
 public final class R {
     public static final class array {
         /**  <item>wooden</item> 
+ <item>wooden</item> 
          */
-        public static final int chess_set_entries=0x7f080000;
+        public static final int chess_set_entries=0x7f060000;
         /**    <item>wooden</item>
+   <item>wooden</item>
          */
-        public static final int chess_set_values=0x7f080001;
-        public static final int orientation_entries=0x7f080002;
-        public static final int orientation_values=0x7f080003;
-        public static final int piece_movement_entries=0x7f080004;
-        public static final int piece_movement_values=0x7f080005;
+        public static final int chess_set_values=0x7f060001;
+        public static final int orientation_entries=0x7f060002;
+        public static final int orientation_values=0x7f060003;
+        public static final int piece_movement_entries=0x7f060004;
+        public static final int piece_movement_values=0x7f060005;
     }
     public static final class attr {
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
+        public static final int activity_horizontal_margin=0x7f080000;
+        public static final int activity_vertical_margin=0x7f080001;
     }
     public static final class drawable {
         public static final int a=0x7f020000;
@@ -139,22 +141,30 @@ public final class R {
         public static final int movement=0x7f050001;
     }
     public static final class string {
-        public static final int about=0x7f090000;
-        public static final int about_message=0x7f090001;
-        public static final int action_preferences=0x7f090002;
-        public static final int action_search=0x7f090003;
-        public static final int action_settings=0x7f090004;
-        public static final int app_name=0x7f090005;
-        public static final int chess_set=0x7f090006;
-        public static final int chess_set_default=0x7f090007;
-        public static final int hello_world=0x7f090008;
-        public static final int notation=0x7f090009;
-        public static final int notation_default=0x7f09000a;
-        public static final int orientation=0x7f09000b;
-        public static final int orientation_default=0x7f09000c;
-        public static final int piece_movement=0x7f09000d;
-        public static final int piece_movement_default=0x7f09000e;
-        public static final int sound=0x7f09000f;
+        public static final int about=0x7f070000;
+        public static final int about_message=0x7f070001;
+        public static final int action_preferences=0x7f070002;
+        public static final int action_search=0x7f070003;
+        public static final int action_settings=0x7f070004;
+        public static final int app_name=0x7f070005;
+        public static final int chess_set=0x7f070006;
+        public static final int chess_set_default=0x7f070007;
+        public static final int clear=0x7f070008;
+        public static final int clear_message=0x7f070009;
+        public static final int closing_activity=0x7f07000a;
+        public static final int closing_query=0x7f07000b;
+        public static final int hello_world=0x7f07000c;
+        public static final int no=0x7f07000d;
+        public static final int notation=0x7f07000e;
+        public static final int notation_default=0x7f07000f;
+        public static final int orientation=0x7f070010;
+        public static final int orientation_default=0x7f070011;
+        public static final int piece_movement=0x7f070012;
+        public static final int piece_movement_default=0x7f070013;
+        public static final int reset=0x7f070014;
+        public static final int reset_message=0x7f070015;
+        public static final int sound=0x7f070016;
+        public static final int yes=0x7f070017;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -165,11 +175,11 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int SplashTheme=0x7f070002;
+        public static final int AppTheme=0x7f090001;
+        public static final int SplashTheme=0x7f090002;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;

@@ -1626,18 +1626,21 @@ public class ChessBoard extends View {
 
 	void drawLeftArrow(Canvas canvas,int posX, int posY)
 	{
-		leftArrow.setBounds(posX,posY,posX+squareWidthI,posY+squareWidthI);
+		int smallMargin = (int)(squareWidthF/4);
+		leftArrow.setBounds(posX+smallMargin,posY,posX+squareWidthI,posY+squareWidthI);
 		leftArrow.draw(canvas);  	
 	}
 	void drawRightArrow(Canvas canvas,int posX, int posY)
 	{
-		rightArrow.setBounds(posX,posY,posX+squareWidthI,posY+squareWidthI);
+		int smallMargin = (int)(squareWidthF/4);
+		rightArrow.setBounds(posX,posY,posX+squareWidthI-smallMargin,posY+squareWidthI);
 		rightArrow.draw(canvas);  	
 	}
 	void drawResetButton(Canvas canvas, int posX, int posY)
 	{
 		//these are kind of improvised bounds and will squish the button a bit.
-		resetButton.setBounds(posX,posY,posX+squareWidthI*2,posY+squareWidthI);
+		int smallMargin = (int)(squareWidthF/4);
+		resetButton.setBounds(posX,posY,posX+squareWidthI*2-smallMargin,posY+squareWidthI);
 		resetButton.draw(canvas);
 	}
 	void drawClearButton(Canvas canvas, int posX, int posY)

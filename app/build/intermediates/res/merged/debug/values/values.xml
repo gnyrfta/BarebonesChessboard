@@ -35,21 +35,29 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="about">About app.</string>
-    <string name="about_message">App made by David Jacobsson.\nLorem Ipsum Dolor</string>
+    <string name="about_message">\nChess piece artists: \nEyes and Freak - Maurizio Monge. \nFree Staunton - Artist unknown.\nApp by David Jacobsson, gnyrfta@gmail.com</string>
     <string name="action_preferences">Preferences</string>
     <string name="action_search">Search</string>
     <string name="action_settings">Chess</string>
     <string name="app_name">Chessboard</string>
     <string name="chess_set">Chess Set</string>
     <string name="chess_set_default">staunton</string>
+    <string name="clear">Clear</string>
+    <string name="clear_message">Clear board and movement history?</string>
+    <string name="closing_activity">Closing Activity</string>
+    <string name="closing_query">Are you sure you want to exit Chessboard?</string>
     <string name="hello_world">hello_world</string>
+    <string name="no">no</string>
     <string name="notation">Algebraic Notation</string>
     <string name="notation_default">Off</string>
     <string name="orientation">Orientation</string>
     <string name="orientation_default">white_down</string>
     <string name="piece_movement">Piece Movement</string>
     <string name="piece_movement_default">Two Touch</string>
+    <string name="reset">Reset</string>
+    <string name="reset_message">Reset board and movement history?</string>
     <string name="sound">Sound on</string>
+    <string name="yes">yes</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Scacchiera</string>
+    <string name="hello_world">hello_world</string>
+    <string name="action_settings">Chess</string>
+    <string name="action_search">Search</string>
+    <string name="action_preferences">Preferences</string>
+    <!--
+    <string name="background_color">Change Background</string>
+    <string name="background_color_default">grey</string>
+    -->
+    <string name="chess_set">Set di scacchi</string>
+    <string name="chess_set_default">staunton</string>
+    <string name="orientation">Disposizione</string>
+    <string name="orientation_default">white_down</string>
+    <string name="sound">Suono attivo</string>
+    <string name="piece_movement">Movimento dei pezzi</string>
+    <string name="piece_movement_default">Two Touch</string>
+    <!--
+    <string-array name="background_color_entries">
+        <item>grey</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+        <string-array name="background_color_values">
+        <item>grey</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+    -->
+    <string-array name="chess_set_entries">
+        <item>freak</item>
+        <item>eyes</item>
+        <item>staunton</item>
+       <!-- <item>wooden</item> -->
+    </string-array>
+    <string-array name="chess_set_values">
+        <item>freak</item>
+        <item>eyes</item>
+        <item>staunton</item>
+     <!--   <item>wooden</item>-->
+    </string-array>
+    <string-array name="orientation_entries">
+        <item>Bianco in basso</item>
+        <item>Bianco a destra</item>
+        <item>Bianco in alto</item>
+        <item>Bianco a sinistra</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>white_down</item>
+        <item>white_right</item>
+        <item>white_up</item>
+        <item>white_left</item>
+    </string-array>
+    <string-array name="piece_movement_entries">
+        <item>Trascinamento</item>
+        <item>Doppio tocco</item>
+    </string-array>
+    <string-array name="piece_movement_values">
+        <item>Drag and Drop</item>
+        <item>Two Touch</item>
+    </string-array>
+    <string name="notation">Notazione algebrica</string>
+    <string name="notation_default">Off</string>
+    <string name="about">Informazioni</string>
+    <string name="about_message">Autori dei set: \nEyes e Freak - Maurizio Mongo \nFree Staunton - Artista sconosciuto \nApp realizzata da David Jacobsson - gnyrfta@gmail.com\nTraduzione di Stefano Cavallaro</string>
+
+    <string name="clear">Libera</string>
+    <string name="reset">Riordina</string>
+    <string name="clear_message">Libero la scacchiera e cancello la cronologia delle mosse?</string>
+    <string name="reset_message">Riordino la scacchiera e cancello la cronologia delle mosse?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="closing_activity"></string>
+    <string name="closing_query">Vuoi davvero uscire da Scacchiera Semplice?</string>
+</resources>
