@@ -518,8 +518,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 			String column2 = to.substring(0,1);
 			String capturedPiece = querySquare(to);
 			Log.d("in movePiece","this is column: "+column);
+			Log.d("in movePiece","this is column2: "+column2);
 			//if moving from an area inside the board, vacate from-square, otherwise not:
-			if(!((column.equals("i"))||(column.equals("j"))))
+			if(!((column.equals("i"))||(column.equals("j"))||(column.equals("k"))))
 			{	
 				hm.put(from,"empty");//piece leaving square
 				hm.put(to,thisIsThePieceToBeMoved);//piece arriving at square.
@@ -611,6 +612,17 @@ public class MainActivity extends Activity implements OnTouchListener {
 			{
 				squareWidthF = height/9;
 			}
+		}
+		int vertical;
+		int extraMargin=0;
+		if(!notationOn)
+		{
+			vertical=10;
+		}
+		else
+		{
+			vertical=11;
+			extraMargin = (int)(width/24);
 		}
 		//Här är det!
 		if(event.getY()<margin+squareWidthF*11)
@@ -740,6 +752,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 									case 9: row="i";
 									break;
 									case 10: row="j";
+									break;
+									case 11: if(notationOn){row="k";}
+											else{row="";}
 									break;
 									default: row="";
 									break;
@@ -944,7 +959,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 						{
 							int k=i;
 							Log.d("in OnTouch","this is column "+i);
-							for (j=1;j<11;j++)
+							for (j=1;j<12;j++)
 							{
 								if (margin+squareWidthF*j-squareWidthF < yCo && yCo < margin+squareWidthF*j)
 								{
@@ -969,6 +984,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 									case 9: row="i";
 									break;
 									case 10: row="j";
+									break;
+									case 11: if(notationOn){row="k";}
+									else{row="";}
 									break;
 									default: row="";
 									break;
@@ -1157,6 +1175,9 @@ public class MainActivity extends Activity implements OnTouchListener {
 									break;
 									case 10: row="j";
 									break;
+									case 11: if(notationOn){row="k";}
+											else{row="";}
+									break;
 									}
 									square = row+k;
 									if(yCo>squareWidthF*8)
@@ -1208,6 +1229,11 @@ public class MainActivity extends Activity implements OnTouchListener {
 								movePiece(fromSquare,toSquare,false,false);
 								chessboard.invalidate();
 							}
+							else if(notationOn && (yCo<extraMargin+margin+squareWidthF*11))
+							{
+								movePiece(fromSquare,toSquare,false,false);
+								chessboard.invalidate();
+							}
 						}
 						Log.d("in OnTouch","D");
 					}
@@ -1227,6 +1253,11 @@ public class MainActivity extends Activity implements OnTouchListener {
 							Log.d("in onTouch","this is toSquare"+toSquare);
 							thisIsThePieceToBeMoved=querySquare(fromSquare);
 							if(yCo<squareWidthF*10)
+							{
+								movePiece(fromSquare,toSquare,false,false);
+								chessboard.invalidate();
+							}
+							else if(notationOn && (yCo<extraMargin+margin+squareWidthF*11))
 							{
 								movePiece(fromSquare,toSquare,false,false);
 								chessboard.invalidate();
@@ -1261,17 +1292,7 @@ public class MainActivity extends Activity implements OnTouchListener {
 		//MotionEvent.ACTION_UP
 		int action = event.getAction() & MotionEvent.ACTION_MASK;
 //STUFF AND SHIT.
-		int vertical;
-		int extraMargin=0;
-		if(!notationOn)
-		{
-			vertical=10;
-		}
-		else
-		{
-			vertical=11;
-			extraMargin = (int)(width/24);
-		}
+
 		switch(action)
 		{
 		case MotionEvent.ACTION_DOWN:
@@ -1471,6 +1492,7 @@ public void clearLists()
 		{
 			row="j";
 		}
+		Log.d("twotouch this is row: "+row,"row: "+row);
 		return row;
 	}
 
